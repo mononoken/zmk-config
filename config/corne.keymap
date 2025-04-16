@@ -47,12 +47,17 @@
         combo_q {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp BSPC>;
+            bindings = <&kp Q>;
         };
         combo_qu {
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp Q &kp U>;
+        };
+        combo_z {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&kp Z>;
         };
         // Controls
         combo_esc {
@@ -69,6 +74,32 @@
             timeout-ms = <50>;
             key-positions = <18 19>;
             bindings = <&kp BSPC>;
+        };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <5 6>;
+            bindings = <&kp DEL>;
+        };
+        // Symbols
+        combo_minus {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&kp MINUS>;
+        };
+        combo_equal {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp KP_EQUAL>;
+        };
+        combo_squo {
+            timeout-ms = <50>;
+            key-positions = <13 23>;
+            bindings = <&kp SQT>;
+        };
+        combo_dquo {
+            timeout-ms = <50>;
+            key-positions = <16 26>;
+            bindings = <&kp DQT>;
         };
     };
 };
