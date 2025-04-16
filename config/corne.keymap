@@ -27,10 +27,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &none &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
-   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &&none 
-   &none &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &&none 
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
+   &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
+   &none &kp V     &kp W    &kp G     &kp D  &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
+                            &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
 
@@ -41,10 +41,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &none
-   &none &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &none
-   &none &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &none
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+   &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
+   &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
+   &none &kp V     &kp W    &kp G     &kp D  &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
+                            &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
         };
