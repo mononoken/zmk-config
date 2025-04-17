@@ -23,19 +23,19 @@
                 base_layer {
                         label = "BASE";
                         bindings = <
-   &none &kp UNDER &kp C    &kp F     &kp K     &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
-   &none &kp R     &kp S    &kp T     &kp H     &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
-   &none &kp V     &kp W    &kp G     &kp D     &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
-                            &none     &sl LSYM  &lt 2 SPACE &kp E     &mo 2  &kp RALT
+   &none &kp UNDER &kp C    &kp F     &kp K     &kp B          &kp X     &kp J     &kp O      &kp U    &kp RPAR     &none
+   &none &kp R     &kp S    &kp T     &kp H     &kp P          &kp M     &kp N     &kp A      &kp I    &key_repeat  &none
+   &none &kp V     &kp W    &kp G     &kp D     &kp LPAR       &kp FSLH  &kp L     &kp COMMA  &kp DOT  &kp Y        &none
+                            &none     &sl LSYM  &lt NAVI SPACE &kp E     &sl RSYM  &none
                         >;
                 };
                 numb_layer {
                         label = "NUMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K  &none       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
-   &none &kp 6     &kp 4    &kp 0     &kp 2  &trans      &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
-   &none &kp PRCNT &none    &kp G     &kp 8  &trans      &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
-                            &kp LGUI  &mo 1  &trans      &kp E     &mo 2  &kp RALT
+   &none &trans    &kp PLUS &kp ASTRK &kp K  &none       &trans       &kp J  &none      &trans   &kp RPAR     &none
+   &none &kp 6     &kp 4    &kp 0     &kp 2  &trans      &kp BSLSH    &kp 3  &kp 1      &kp 5    &kp 7        &none
+   &none &kp PRCNT &none    &kp G     &kp 8  &trans      &trans       &kp 9  &trans     &trans   &kp PRCNT    &none
+                            &trans    &trans &trans      &kp K_CANCEL &trans &trans
                         >;
                 };
                 navi_layer {
@@ -44,6 +44,15 @@
    &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
    &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
    &none &kp V     &kp W    &kp G     &kp D  &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
+                            &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
+                        >;
+                };
+                symb_layer {
+                        label = "SYMB";
+                        bindings = <
+   &none &kp UNDER &kp PLUS &kp ASTRK &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
+   &none &kp CARET &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
+   &none &kp PRCNT &kp LT   &kp GT    &kp D  &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
                             &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
