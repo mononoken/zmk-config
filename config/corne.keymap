@@ -21,7 +21,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
+                base_layer {
                         bindings = <
    &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
    &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
@@ -29,7 +29,7 @@
                             &kp LGUI  &mo 1  &kp LT_SPC  &kp E     &mo 2  &kp RALT
                         >;
                 };
-                lower_layer {
+                navi_layer {
                         bindings = <
    &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
    &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
@@ -38,17 +38,7 @@
                         >;
                 };
 
-                raise_layer {
-                        bindings = <
-   &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
-   &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
-   &none &kp V     &kp W    &kp G     &kp D  &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
-                            &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
-                        >;
-                };
-        };
-
-                raise_layer {
+                numb_layer {
                         bindings = <
    &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
    &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
@@ -58,7 +48,17 @@
                 };
         };
 
-                raise_layer {
+                lsym_layer {
+                        bindings = <
+   &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
+   &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
+   &none &kp V     &kp W    &kp G     &kp D  &kp LPAR    &kp FSLH  &kp L  &kp COMMA  &kp DOT  &kp Y        &none
+                            &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
+                        >;
+                };
+        };
+
+                rsym_layer {
                         bindings = <
    &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
    &none &kp R     &kp S    &kp T     &kp H  &kp P       &kp M     &kp N  &kp A      &kp I    &key_repeat  &none
