@@ -10,10 +10,6 @@
 #include "corne.h"
 
 / {
-        combos {
-                #include "combos.dtsi"
-        };
-
         keymap {
                 compatible = "zmk,keymap";
                 base_layer {
