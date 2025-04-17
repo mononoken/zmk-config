@@ -1,4 +1,5 @@
 qu_macro: qu_macro {
     compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
     bindings = <&kp Q &kp U>;
 };
