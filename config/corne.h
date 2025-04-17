@@ -4,4 +4,4 @@
 #define LSYM 3
 #define RSYM 4
 
-#define LT_SPC &lt 1 SPACE
+#define LT_SPC &lt NAVI SPACE
