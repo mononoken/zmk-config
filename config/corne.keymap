@@ -13,6 +13,10 @@
                 #include "combos.dtsi"
         };
 
+        macros {
+                #include "macros.dtsi"
+        };
+
         keymap {
                 compatible = "zmk,keymap";
                 base_layer {

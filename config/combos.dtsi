@@ -14,6 +14,10 @@ combo_q {
     key-positions = <1 2>;
     bindings = <&kp Q>;
 };
+combo_qu {
+    key-positions = <2 3>;
+    bindings = <&qu_macro>;
+};
 combo_z {
     key-positions = <3 4>;
     bindings = <&kp Z>;
