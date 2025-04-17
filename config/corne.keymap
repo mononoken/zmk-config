@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        combos {
+                #include "combos.dtsi"
+        };
+
         keymap {
                 compatible = "zmk,keymap";
                 base_layer {
