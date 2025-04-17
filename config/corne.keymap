@@ -20,7 +20,6 @@
 
         keymap {
                 compatible = "zmk,keymap";
-
                 base_layer {
                         label = "BASE";
                         bindings = <
@@ -39,9 +38,7 @@
                             &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
-
                 numb_layer {
-
                         label = "NUMB";
                         bindings = <
    &none &kp UNDER &kp C    &kp F     &kp K  &kp B       &kp X     &kp J  &kp O      &kp U    &kp RPAR     &none
@@ -50,7 +47,6 @@
                             &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
-        };
                 lsym_layer {
                         label = "LSYM";
                         bindings = <
@@ -60,8 +56,6 @@
                             &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
-        };
-
                 rsym_layer {
                         label = "RSYM";
                         bindings = <
@@ -71,5 +65,4 @@
                             &kp LGUI  &mo 1  &kp SPACE   &kp E     &mo 2  &kp RALT
                         >;
                 };
-        };
 };
