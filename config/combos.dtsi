@@ -1,10 +1,10 @@
 /*                KEY POSITIONS
-
+     X                                              X
   ╭────────────────────────╮ ╭────────────────────────╮
   │  0   1   2   3   4   5 │ │  6   7   8   9  10  11 │
-  │ 10  11  11  12  13  14 │ │ 15  16  17  18   9  19 │
-  │ 20  11  21  22  23  24 │ │ 25  26  27  28   9  29 │
-  ╰───────────╮ 30  31  32 │ │ 33  34  35 ╭───────────╯
+  │ 12  13  14  15  16  17 │ │ 18  19  20  21  22  23 │
+  │ 24  25  26  27  28  29 │ │ 30  31  32  33  34  35 │
+  ╰───────────╮ 36  37  38 │ │ 39  40  41 ╭───────────╯
               ╰────────────╯ ╰────────────╯       */
 
 compatible = "zmk,combos";
@@ -27,9 +27,17 @@ combo_esc {
     key-positions = <15 26>;
     bindings = <&kp ESC>;
 };
+combo_clear {
+    key-positions = <4 5>;
+    bindings = <&kp K_CANCEL>;
+};
 combo_ent {
     key-positions = <19 20 21>;
     bindings = <&kp ENTER>;
+};
+combo_tab {
+    key-positions = <14 15 16>;
+    bindings = <&kp TAB>;
 };
 combo_bspc {
     key-positions = <21 22>;
@@ -38,6 +46,10 @@ combo_bspc {
 combo_del {
     key-positions = <6 7>;
     bindings = <&kp DEL>;
+};
+combo_capsword {
+    key-positions = <15 16 19 20>;
+    bindings = <&caps_word>;
 };
 // Symbols
 combo_minus {
@@ -55,4 +67,21 @@ combo_squo {
 combo_dquo {
     key-positions = <19 31>;
     bindings = <&kp DQT>;
+};
+combo_semi {
+    key-positions = <15 28>;
+    bindings = <&kp SEMI>;
+};
+combo_colon {
+    key-positions = <20 33>;
+    bindings = <&kp COLON>;
+};
+// Vim
+combo_cmd_q {
+    key-positions = <7 8 9>;
+    bindings = <&kp LC(W)>;
+};
+combo_save_vim {
+    key-positions = <19 20 21 22>;
+    bindings = <&save_vim>;
 };
