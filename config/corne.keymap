@@ -32,10 +32,10 @@
                 numb_layer {
                         label = "NUMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K  &none  &trans       &kp J  &none      &trans   &kp RPAR     &none
-   &none &kp 6     &kp 4    &kp 0     &kp 2  &trans &kp BSLSH    &kp 3  &kp 1      &kp 5    &kp 7        &none
-   &none &kp PRCNT &none    &kp G     &kp 8  &trans &trans       &kp 9  &trans     &trans   &kp PRCNT    &none
-                            &none     &trans &trans &kp K_CANCEL &trans &none
+   &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none  &trans   &kp RPAR     &none
+   &none &kp 6     &kp 4    &kp 0     &kp 2  &trans  &kp BSLSH    &kp 3  &kp 1  &kp 5    &kp 7        &none
+   &none &kp PRCNT &none    &kp G     &kp 8  &trans  &trans       &kp 9  &trans &trans   &kp PRCNT    &none
+                            &none     &trans &trans  &kp K_CANCEL &trans &none
                         >;
                 }
                 symb_layer {
