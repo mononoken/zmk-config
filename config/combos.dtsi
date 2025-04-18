@@ -81,7 +81,7 @@ combo_colon {
     bindings = <&kp COLON>;
 };
 // Vim
-combo_cmd_q {
+combo_ctrl_q {
     key-positions = <7 8 9>;
     bindings = <&kp LC(W)>;
 };
