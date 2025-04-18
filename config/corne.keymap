@@ -62,8 +62,8 @@ ZMK_HOLD_TAP(hmr,
                         label = "NUMB";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none  &trans   &kp RPAR     &none
-   &none &kp 6     &kp 4    &kp 0     &kp 2  &trans  &kp BSLH     &kp 3  &kp 1  &kp 5    &kp 7        &none
-   &none &kp PRCNT &none    &kp G     &kp 8  &trans  &trans       &kp 9  &trans &trans   &kp PRCNT    &none
+   &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1 &kp N5   &kp N7        &none
+   &none &kp PRCNT &none    &kp G     &kp N8 &trans  &trans       &kp N9 &trans &trans   &kp PRCNT    &none
                             &none     &trans &trans  &kp K_CANCEL &trans &none
                         >;
                 };
@@ -80,8 +80,8 @@ ZMK_HOLD_TAP(hmr,
                         label = "LSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none  &trans   &kp RPAR     &none
-   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp 3          &kp 1  &kp 5    &kp 7        &none
-   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp 9          &trans &trans   &kp PRCNT    &none
+   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1 &kp N5   &kp N7        &none
+   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp N9         &trans &trans   &kp PRCNT    &none
                             &none     &trans    &trans    &kp K_CANCEL &num_word NUMB &none
                         >;
                 };
@@ -89,8 +89,8 @@ ZMK_HOLD_TAP(hmr,
                         label = "RSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K          &none   &none        &kp HASH  &kp AT     &none    &trans       &none
-   &none &kp 6     &kp 4    &kp 0     &kp 2          &trans  &kp BSLH     &kp GRAVE &kp LBRC   &kp RBRC &kp DOLLAR   &none
-   &none &kp PRCNT &none    &kp G     &kp 8          &trans  &trans       &kp AMPS  &trans     &trans   &kp PRCNT    &none
+   &none &kp N6    &kp N4   &kp N0    &kp N2         &trans  &kp BSLH     &kp GRAVE &kp LBRC   &kp RBRC &kp DOLLAR   &none
+   &none &kp PRCNT &none    &kp G     &kp N8         &trans  &trans       &kp AMPS  &trans     &trans   &kp PRCNT    &none
                             &none     &num_word NUMB &trans  &kp K_CANCEL &trans &none
                         >;
                 };
@@ -106,10 +106,10 @@ ZMK_HOLD_TAP(hmr,
                 wnav_layer {
                         label = "WNAV";
                         bindings = <
-   &none &none     &none     &none     &none     &none   &none   &kp LC(LA(W)) &kp LC(LA(E)) &kp LC(LA(M))  &none     &none
-   &none &kp LA(6) &kp LA(4) &kp LA(0) &kp LA(2) &none   &none   &kp LA(3)     &kp LA(1)     &kp LA(5)      &kp LA(7) &none
-   &none &none     &none     &none     &kp LA(8) &none   &none   TMUX_LT       TMUX_DN       TMUX_UP        TMUX_RT   &none
-                             &none     &trans    &trans  &trans  &trans        &none
+   &none &none      &none      &none      &none      &none   &none   &kp LC(LA(W)) &kp LC(LA(E)) &kp LC(LA(M))  &none      &none
+   &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)    &kp LA(N1)    &kp LA(N5)     &kp LA(N7) &none
+   &none &none      &none      &none      &kp LA(N8) &none   &none   TMUX_LT       TMUX_DN       TMUX_UP        TMUX_RT    &none
+                               &none      &trans     &trans  &trans  &trans        &none
                         >;
                 };
         };
