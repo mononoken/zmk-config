@@ -37,7 +37,7 @@
    &none &kp PRCNT &none    &kp G     &kp 8  &trans  &trans       &kp 9  &trans &trans   &kp PRCNT    &none
                             &none     &trans &trans  &kp K_CANCEL &trans &none
                         >;
-                }
+                };
                 symb_layer {
                         label = "SYMB";
                         bindings = <
