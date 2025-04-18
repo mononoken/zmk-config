@@ -51,6 +51,10 @@ combo_capsword {
     key-positions = <15 16 19 20>;
     bindings = <&caps_word>;
 };
+combo_numword {
+    key-positions = <37 40>;
+    bindings = <&num_word NUMB>;
+};
 // Symbols
 combo_minus {
     key-positions = <16 17>;
