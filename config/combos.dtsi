@@ -73,11 +73,11 @@ combo_dquo {
     bindings = <&kp DQT>;
 };
 combo_semi {
-    key-positions = <15 28>;
+    key-positions = <20 33>;
     bindings = <&kp SEMI>;
 };
 combo_colon {
-    key-positions = <20 33>;
+    key-positions = <15 28>;
     bindings = <&kp COLON>;
 };
 // Vim
