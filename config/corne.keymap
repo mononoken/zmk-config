@@ -63,7 +63,7 @@ ZMK_HOLD_TAP(hmr,
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none  &trans   &kp RPAR     &none
    &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1 &kp N5   &kp N7        &none
-   &none &kp PRCNT &none    &kp G     &kp N8 &trans  &trans       &kp N9 &trans &trans   &kp PRCNT    &trans
+   &none &kp PRCNT &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans &trans   &kp PRCNT    &trans
                             &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
@@ -91,7 +91,7 @@ ZMK_HOLD_TAP(hmr,
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K          &none   &none        &kp HASH  &kp AT   &none   &trans       &none
    &none &kp N6    &kp N4   &kp N0    &kp N2         &trans  &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
-   &none &kp PRCNT &none    &kp G     &kp N8         &trans  &trans       &kp AMPS  &trans   &trans  &kp PRCNT    &none
+   &none &kp PRCNT &none    &kp LS(G) &kp N8         &trans  &trans       &kp AMPS  &trans   &trans  &kp PRCNT    &none
                             &trans    &num_word NUMB &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
