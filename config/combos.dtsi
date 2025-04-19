@@ -91,5 +91,5 @@ combo_save_vim {
 };
 combo_quit_vim {
     key-positions = <26 27 28>;
-    bindings = <&save_vim>;
+    bindings = <&quit_vim>;
 };
