@@ -112,5 +112,14 @@ ZMK_HOLD_TAP(hmr,
                                &none      &trans     &trans  &trans  &trans        &none
                         >;
                 };
+                shrt_layer {
+                        label = "SHRT";
+                        bindings = <
+   &none &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T)   &none   &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP   &kp C_MUTE  &none
+   &none &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G)   &none   &kp LA(N3)  &kp LA(N1)   &kp LA(N5)     &kp LA(N7)  &none
+   &none &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B)   &none   &none       &kp C_BRI_DN &kp C_BRI_UP   &none       &none
+                             &none     &trans    &trans      &trans  &trans      &none
+                        >;
+                };
         };
 };
