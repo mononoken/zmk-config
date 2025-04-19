@@ -19,3 +19,33 @@ quit_vim: quit_vim {
         = <&kp ESC &kp COLON &kp Q &kp ENTER>
         ;
 };
+
+lca_e: lca_e {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+          = <&macro_press &kp LCTRL &kp LALT>
+          , <&macro_tap &kp E>
+          , <&macro_release &kp LCTRL &kp LALT>
+          ;
+};
+
+lca_m: lca_m {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+          = <&macro_press &kp LCTRL &kp LALT>
+          , <&macro_tap &kp M>
+          , <&macro_release &kp LCTRL &kp LALT>
+          ;
+};
+
+lca_w: lca_w {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+          = <&macro_press &kp LCTRL &kp LALT>
+          , <&macro_tap &kp W>
+          , <&macro_release &kp LCTRL &kp LALT>
+          ;
+};
