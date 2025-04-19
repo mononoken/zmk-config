@@ -50,7 +50,7 @@ ZMK_HOLD_TAP(hmr,
         keymap {
                 compatible = "zmk,keymap";
                 base_layer {
-                        label = "BASE";
+                        display-name = "BASE";
                         bindings = <
    &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp RPAR     &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &key_repeat  &none
@@ -59,7 +59,7 @@ ZMK_HOLD_TAP(hmr,
                         >;
                 };
                 numb_layer {
-                        label = "NUMB";
+                        display-name = "NUMB";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none   &none    &kp RPAR     &none
    &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
@@ -69,7 +69,7 @@ ZMK_HOLD_TAP(hmr,
                 };
                 /* Is SYMB actually used? */
                 symb_layer {
-                        label = "SYMB";
+                        display-name = "SYMB";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &none     &none     &none        &kp HASH  &kp AT   &none    &trans       &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LT   &kp GT   &kp DOLLAR   &none
@@ -78,7 +78,7 @@ ZMK_HOLD_TAP(hmr,
                         >;
                 };
                 lsym_layer {
-                        label = "LSYM";
+                        display-name = "LSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none   &trans   &kp RPAR    &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1  &kp N5   &kp N7      &none
@@ -87,7 +87,7 @@ ZMK_HOLD_TAP(hmr,
                         >;
                 };
                 rsym_layer {
-                        label = "RSYM";
+                        display-name = "RSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K          &none   &none        &kp HASH  &kp AT   &none   &trans       &none
    &none &kp N6    &kp N4   &kp N0    &kp N2         &trans  &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
@@ -96,7 +96,7 @@ ZMK_HOLD_TAP(hmr,
                         >;
                 };
                 navi_layer {
-                        label = "NAVI";
+                        display-name = "NAVI";
                         bindings = <
    &none &none         &kp LEFT        &kp UP           &kp RIGHT   &kp HOME  &none    &none     &kp LA(S)  &kp LA(G) &none     &none
    &none &kp LG(LS(T)) &kp LC(LS(TAB)) &mt LCTRL DOWN   &kp LC(TAB) &none     &none    &kp H     &kp J      &kp K     &kp L     &none
@@ -105,7 +105,7 @@ ZMK_HOLD_TAP(hmr,
                         >;
                 };
                 wnav_layer {
-                        label = "WNAV";
+                        display-name = "WNAV";
                         bindings = <
    &none &none      &none      &none      &none      &none   &none   &lca_w      &lca_e       &lca_m      &none      &none
    &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)  &kp LA(N1)   &kp LA(N5)  &kp LA(N7) &none
@@ -114,7 +114,7 @@ ZMK_HOLD_TAP(hmr,
                         >;
                 };
                 shrt_layer {
-                        label = "SHRT";
+                        display-name = "SHRT";
                         bindings = <
    &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &none         &none       &kp C_PREV   &kp C_NEXT    &none       &none
    &none &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)   &none         &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
