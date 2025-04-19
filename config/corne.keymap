@@ -67,6 +67,7 @@ ZMK_HOLD_TAP(hmr,
                             &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
+                /* Is SYMB actually used? */
                 symb_layer {
                         label = "SYMB";
                         bindings = <
