@@ -11,3 +11,11 @@ save_vim: save_vim {
         = <&kp ESC &kp COLON &kp W &kp ENTER>
         ;
 };
+
+quit_vim: quit_vim {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+        = <&kp ESC &kp COLON &kp Q &kp ENTER>
+        ;
+};
