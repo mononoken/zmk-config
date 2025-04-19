@@ -48,7 +48,7 @@ combo_del {
     bindings = <&kp DEL>;
 };
 combo_capsword {
-    key-positions = <15 16 19 20>;
+    key-positions = <14 15 20 21>;
     bindings = <&caps_word>;
 };
 combo_numword {
