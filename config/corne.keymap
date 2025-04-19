@@ -83,7 +83,7 @@ ZMK_HOLD_TAP(hmr,
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1 &kp N5   &kp N7      &none
    &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp N9         &trans &trans   &kp PRCNT   &none
                             &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
-                        trans
+                        >;
                 };
                 rsym_layer {
                         label = "RSYM";
