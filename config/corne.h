@@ -1,7 +1,3 @@
-#define QUICK_TAP_MS 175
-#define HRM_TAPPING_TERM_MS 280
-#define HRM_REQUIRE_PRIOR_IDLE_MS 150
-
 #define BASE 0
 #define NUMB 1
 #define SYMB 2
