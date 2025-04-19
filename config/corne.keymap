@@ -106,7 +106,7 @@ ZMK_HOLD_TAP(hmr,
                 wnav_layer {
                         label = "WNAV";
                         bindings = <
-   &none &none      &none      &none      &none      &none   &none   &kp LC(LA(W)) &kp LC(LA(E)) &kp LC(LA(M))  &none      &none
+   &none &none      &none      &none      &none      &none   &none   &kp LA(LC(W)) &kp LA(LC(E)) &kp LA(LC(M))  &none      &none
    &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)    &kp LA(N1)    &kp LA(N5)     &kp LA(N7) &none
    &none &none      &none      &none      &kp LA(N8) &none   &none   TMUX_LT       TMUX_DN       TMUX_UP        TMUX_RT    &none
                                &trans     &trans     &trans  &trans  &trans        &trans
