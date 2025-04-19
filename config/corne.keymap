@@ -61,9 +61,9 @@ ZMK_HOLD_TAP(hmr,
                 numb_layer {
                         label = "NUMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &AT    &trans   &kp RPAR     &none
-   &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1 &kp N5   &kp N7        &none
-   &none &kp PRCNT &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans &trans   &kp PRCNT    &trans
+   &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none   &trans   &kp RPAR     &none
+   &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
+   &none &kp PRCNT &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans  &trans   &kp PRCNT    &trans
                             &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
@@ -80,9 +80,9 @@ ZMK_HOLD_TAP(hmr,
                 lsym_layer {
                         label = "LSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &AT    &trans   &kp RPAR    &none
-   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1 &kp N5   &kp N7      &none
-   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp N9         &trans &trans   &kp PRCNT   &none
+   &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none   &trans   &kp RPAR    &none
+   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1  &kp N5   &kp N7      &none
+   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp N9         &trans  &trans   &kp PRCNT   &none
                             &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
                         >;
                 };
