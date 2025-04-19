@@ -97,10 +97,10 @@ ZMK_HOLD_TAP(hmr,
                 navi_layer {
                         label = "NAVI";
                         bindings = <
-   &none &none         &kp LEFT        &kp UP    &kp RIGHT   &kp HOME  &none    &none     &kp LA(S)  &kp LA(G) &none     &none
-   &none &kp LG(LS(T)) &kp LC(LS(TAB)) &kp DOWN  &kp LC(TAB) &none     &none    &kp H     &kp J      &kp K     &kp L     &none
-   &none &none         &none           &kp PG_UP &kp PG_DN   &kp END   &none    &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
-                                       &none     &trans      &trans    &mo WNAV &mo 2     &none
+   &none &none         &kp LEFT        &kp UP          &kp RIGHT   &kp HOME  &none    &none     &kp LA(S)  &kp LA(G) &none     &none
+   &none &kp LG(LS(T)) &kp LC(LS(TAB)) &mt LCTRL DOWN  &kp LC(TAB) &none     &none    &kp H     &kp J      &kp K     &kp L     &none
+   &none &none         &none           &kp PG_UP       &kp PG_DN   &kp END   &none    &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
+                                       &none           &trans      &trans    &mo WNAV &mo 2     &none
                         >;
                 };
                 wnav_layer {
