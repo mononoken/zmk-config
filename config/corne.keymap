@@ -70,9 +70,9 @@ ZMK_HOLD_TAP(hmr,
                 symb_layer {
                         label = "SYMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &none     &none     &none        &kp HASH  &kp AT     &none    &trans       &none
-   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LBRC   &kp RBRC &kp DOLLAR   &none
-   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp AMPS  &trans     &trans   &kp PRCNT    &trans
+   &none &trans    &kp PLUS &kp ASTRK &none     &none     &none        &kp HASH  &kp AT   &none    &trans       &none
+   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LT   &kp GT   &kp DOLLAR   &none
+   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp AMPS  &trans   &trans   &kp PRCNT    &trans
                             &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
                         >;
                 };
