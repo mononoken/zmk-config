@@ -55,7 +55,7 @@ ZMK_HOLD_TAP(hmr,
    &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp RPAR     &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &key_repeat  &none
    &none &hml LALT V &hml LCTRL W &hml LSHFT G &hml LGUI D     &kp LPAR       &kp FSLH  &hmr LGUI L &hmr RSHFT COMMA &hmr LCTRL DOT &hmr LALT Y  &none
-                                  &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &none
+                                  &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
                 };
                 numb_layer {
@@ -63,8 +63,8 @@ ZMK_HOLD_TAP(hmr,
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none  &trans   &kp RPAR     &none
    &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1 &kp N5   &kp N7        &none
-   &none &kp PRCNT &none    &kp G     &kp N8 &trans  &trans       &kp N9 &trans &trans   &kp PRCNT    &none
-                            &trans    &trans &trans  &kp K_CANCEL &trans &none
+   &none &kp PRCNT &none    &kp G     &kp N8 &trans  &trans       &kp N9 &trans &trans   &kp PRCNT    &trans
+                            &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
                 symb_layer {
@@ -72,18 +72,18 @@ ZMK_HOLD_TAP(hmr,
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &none     &none     &none        &kp HASH  &kp AT     &none    &trans       &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LBRC   &kp RBRC &kp DOLLAR   &none
-   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp AMPS  &trans     &trans   &kp PRCNT    &none
-                            &trans    &trans    &trans    &kp K_CANCEL &trans    &none
+   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp AMPS  &trans     &trans   &kp PRCNT    &trans
+                            &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
                         >;
                 };
                 lsym_layer {
                         label = "LSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none  &trans   &kp RPAR     &none
-   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1 &kp N5   &kp N7        &none
-   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp N9         &trans &trans   &kp PRCNT    &none
-                            &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &none
-                        >;
+   &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none  &trans   &kp RPAR    &none
+   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1 &kp N5   &kp N7      &none
+   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp N9         &trans &trans   &kp PRCNT   &none
+                            &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
+                        trans
                 };
                 rsym_layer {
                         label = "RSYM";
@@ -91,7 +91,7 @@ ZMK_HOLD_TAP(hmr,
    &none &trans    &kp PLUS &kp ASTRK &kp K          &none   &none        &kp HASH  &kp AT     &none    &trans       &none
    &none &kp N6    &kp N4   &kp N0    &kp N2         &trans  &kp BSLH     &kp GRAVE &kp LBRC   &kp RBRC &kp DOLLAR   &none
    &none &kp PRCNT &none    &kp G     &kp N8         &trans  &trans       &kp AMPS  &trans     &trans   &kp PRCNT    &none
-                            &trans    &num_word NUMB &trans  &kp K_CANCEL &trans &none
+                            &trans    &num_word NUMB &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
                 navi_layer {
@@ -100,7 +100,7 @@ ZMK_HOLD_TAP(hmr,
    &none &none         &kp LEFT        &kp UP          &kp RIGHT   &kp HOME  &none    &none     &kp LA(S)  &kp LA(G) &none     &none
    &none &kp LG(LS(T)) &kp LC(LS(TAB)) &mt LCTRL DOWN  &kp LC(TAB) &none     &none    &kp H     &kp J      &kp K     &kp L     &none
    &none &none         &none           &kp PG_UP       &kp PG_DN   &kp END   &none    &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
-                                       &trans          &trans      &trans    &mo WNAV &trans     &none
+                                       &trans          &trans      &trans    &mo WNAV &trans    &trans
                         >;
                 };
                 wnav_layer {
@@ -109,7 +109,7 @@ ZMK_HOLD_TAP(hmr,
    &none &none      &none      &none      &none      &none   &none   &kp LC(LA(W)) &kp LC(LA(E)) &kp LC(LA(M))  &none      &none
    &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)    &kp LA(N1)    &kp LA(N5)     &kp LA(N7) &none
    &none &none      &none      &none      &kp LA(N8) &none   &none   TMUX_LT       TMUX_DN       TMUX_UP        TMUX_RT    &none
-                               &trans     &trans     &trans  &trans  &trans        &none
+                               &trans     &trans     &trans  &trans  &trans        &trans
                         >;
                 };
                 shrt_layer {
@@ -118,7 +118,7 @@ ZMK_HOLD_TAP(hmr,
    &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &none   &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP   &kp C_MUTE  &none
    &none &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)   &none   &kp LA(N3)  &kp LA(N1)   &kp LA(N5)     &kp LA(N7)  &none
    &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &none   &none       &kp C_BRI_DN &kp C_BRI_UP   &none       &none
-                             &trans    &trans    &trans      &trans  &trans      &none
+                             &trans    &trans    &trans      &trans  &trans      &trans
                         >;
                 };
         };
