@@ -80,6 +80,14 @@ combo_colon {
     key-positions = <15 28>;
     bindings = <&kp COLON>;
 };
+combo_exclm {
+    key-positions = <20 32>;
+    bindings = <&kp EXCL>;
+};
+combo_qmark {
+    key-positions = <21 33>;
+    bindings = <&kp QMARK>;
+};
 // Vim
 combo_ctrl_q {
     key-positions = <7 8 9>;
