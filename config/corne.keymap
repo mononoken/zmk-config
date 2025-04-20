@@ -53,7 +53,7 @@ ZMK_HOLD_TAP(hmr,
                         display-name = "BASE";
                         bindings = <
    &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp RPAR     &none
-   &none &kp R       &kp S        &hml LSHFT T &kp H           &kp P          &kp M     &kp N       &hmr RSHFT A     &kp I          &key_repeat  &none
+   &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &key_repeat  &none
    &none &hml LALT V &hml LCTRL W &hml LSHFT G &hml LGUI D     &kp LPAR       &kp FSLH  &hmr LGUI L &hmr RSHFT COMMA &hmr LCTRL DOT &hmr LALT Y  &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
