@@ -16,23 +16,30 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4  // Right-hand keys.
 #define THUMBS LH2 LH1 LH0 RH0 RH1 RH2                                      // Thumb keys.
 
-/* Left-hand HRMs. */
+/* Only used for when using mods on same hand as alpha. */
+#define TAPPING_TERM_MS 280
+/* If you press a tapped hold-tap again within quick-tap-ms milliseconds of the first press, it will always trigger the tap behavior. */
+#define QUICK_TAP_MS 175
+/* Immediately resolves a HRM as "tap" when it is pressed shortly after another key has been tapped. */
+#define REQUIRE_PRIOR_IDLE_MS 80
+
+/* Left-hand HRMs */
 ZMK_HOLD_TAP(hml,
     flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <175>;
-    require-prior-idle-ms = <80>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+    require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
     bindings = <&kp>, <&kp>;
     hold-trigger-key-positions = <KEYS_R THUMBS>;
     hold-trigger-on-release;
 )
 
-/* Right-hand HRMs. */
+/* Right-hand HRMs */
 ZMK_HOLD_TAP(hmr,
     flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <175>;
-    require-prior-idle-ms = <80>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+    require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
     bindings = <&kp>, <&kp>;
     hold-trigger-key-positions = <KEYS_L THUMBS>;
     hold-trigger-on-release;
