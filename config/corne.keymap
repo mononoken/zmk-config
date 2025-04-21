@@ -41,18 +41,18 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp RPAR     &none
+   &none &kp V       &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp Y     &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &key_repeat  &none
-   &none &kp V       &kp W        &kp G        &kp D           &kp LPAR       &kp FSLH  &kp L       &kp COMMA        &kp DOT        &kp Y        &none
+   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp LPAR       &kp FSLH  &kp L       &kp COMMA        &kp DOT        &sk LSHFT    &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
                 };
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none   &none    &kp RPAR     &none
+   &none &kp PRCNT &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none   &none    &kp PRCNT    &none
    &none &kp N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
-   &none &kp PRCNT &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans  &trans   &kp PRCNT    &trans
+   &none &trans    &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans  &trans   &trans       &none
                             &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
@@ -60,27 +60,27 @@
                 symb_layer {
                         display-name = "SYMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &none     &none     &none        &kp HASH  &kp AT   &none    &trans       &none
+   &none &kp PRCNT &kp PLUS &kp ASTRK &none     &kp RPAR  &none        &kp HASH  &kp AT   &none    &kp PRCNT    &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LT   &kp GT   &kp DOLLAR   &none
-   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp AMPS  &trans   &trans   &kp PRCNT    &trans
+   &none &trans    &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp AMPS  &trans   &trans   &trans       &trans
                             &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
                         >;
                 };
                 lsym_layer {
                         display-name = "LSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none   &trans   &kp RPAR    &none
+   &none &kp PRCNT &kp PLUS &kp ASTRK &none     &none     &trans       &kp J          &none   &trans   &kp PRCNT   &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp N3         &kp N1  &kp N5   &kp N7      &none
-   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp N9         &trans  &trans   &kp PRCNT   &none
+   &none &trans    &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp N9         &trans  &trans   &trans      &none
                             &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
                         >;
                 };
                 rsym_layer {
                         display-name = "RSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K          &none   &none        &kp HASH  &kp AT   &none   &trans       &none
+   &none &kp PRCNT &kp PLUS &kp ASTRK &kp K          &none   &none        &kp HASH  &kp AT   &none   &kp PRCNT    &none
    &none &kp N6    &kp N4   &kp N0    &kp N2         &trans  &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
-   &none &kp PRCNT &none    &kp LS(G) &kp N8         &trans  &trans       &kp AMPS  &trans   &trans  &kp PRCNT    &none
+   &none &trans    &none    &kp LS(G) &kp N8         &trans  &trans       &kp AMPS  &trans   &trans  &trans       &none
                             &trans    &num_word NUMB &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
