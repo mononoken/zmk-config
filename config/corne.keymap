@@ -27,30 +27,6 @@
   quick-tap-ms = <QUICK_TAP_MS>;
 };
 
-/* Homerow mods */
-
-#define KEYS_L LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4
-#define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4
-#define THUMBS LH2 LH1 LH0 RH0 RH1 RH2
-
-/* tapping-term-ms - Only used for when using mods on same hand as alpha
- * quick-tap-ms - If you press a tapped hold-tap again within quick-tap-ms milliseconds of the first press, it will always trigger the tap behavior.
- * require-prior-idle-ms - Immediately resolves a HRM as "tap" when it is pressed shortly after another key has been tapped.
- */
-#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS)                                 \
-  ZMK_HOLD_TAP(                                                                \
-                NAME,                                                          \
-                bindings = <HOLD>, <TAP>;                                      \
-                flavor = "balanced";                                           \
-                tapping-term-ms = <280>;                                       \
-                quick-tap-ms = <QUICK_TAP_MS>;                                 \
-                require-prior-idle-ms = <40>;                                  \
-                hold-trigger-on-release;                                       \
-                hold-trigger-key-positions = <TRIGGER_POS>;)
-
-MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS) // Left-hand HRMs
-MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs
-
 / {
         combos {
                 #include "combos.dtsi"
@@ -67,7 +43,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs
                         bindings = <
    &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp RPAR     &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &key_repeat  &none
-   &none &hml LALT V &hml LCTRL W &hml LSHFT G &hml LGUI D     &kp LPAR       &kp FSLH  &hmr LGUI L &hmr RSHFT COMMA &hmr LCTRL DOT &hmr LALT Y  &none
+   &none &kp V       &kp W        &kp G        &kp D           &kp LPAR       &kp FSLH  &kp L       &kp COMMA        &kp DOT        &kp Y        &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
                 };
@@ -113,7 +89,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs
                         bindings = <
    &none &none         &kp LEFT        &kp UP           &kp RIGHT   &kp HOME  &none    &none     &kp LA(S)  &kp LA(G) &none     &none
    &none &kp LG(LS(T)) &kp LC(LS(TAB)) &mt LCTRL DOWN   &kp LC(TAB) &none     &none    &kp H     &kp J      &kp K     &kp L     &none
-   &none &none         &none           &hml LSHFT PG_UP &kp PG_DN   &kp END   &none    &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
+   &none &none         &none           &kp PG_UP        &kp PG_DN   &kp END   &none    &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
                                        &trans           &trans      &trans    &mo WNAV &trans    &trans
                         >;
                 };
