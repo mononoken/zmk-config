@@ -88,6 +88,39 @@ combo_exclm {
     key-positions = <21 33>;
     bindings = <&kp EXCL>;
 };
+// Mods
+combo_l_shift {
+    key-positions = <26 27>;
+    bindings = <&sk LSHIFT>;
+};
+combo_l_gui {
+    key-positions = <27 28>;
+    bindings = <&sk LGUI>;
+};
+combo_l_ctrl {
+    key-positions = <25 26>;
+    bindings = <&sk LCTRL>;
+};
+combo_l_alt {
+    key-positions = <28 29>;
+    bindings = <&sk LALT>;
+};
+combo_r_shift {
+    key-positions = <32 33>;
+    bindings = <&sk RSHIFT>;
+};
+combo_r_gui {
+    key-positions = <31 32>;
+    bindings = <&sk LGUI>;
+};
+combo_r_ctrl {
+    key-positions = <33 34>;
+    bindings = <&sk LCTRL>;
+};
+combo_r_alt {
+    key-positions = <30 31>;
+    bindings = <&sk LALT>;
+};
 // Vim
 combo_ctrl_q {
     key-positions = <7 8 9>;

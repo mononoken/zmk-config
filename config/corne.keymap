@@ -16,6 +16,11 @@
 
 #define QUICK_TAP_MS 175
 
+&sk {
+  release-after-ms = <900>;
+  quick-release;
+};
+
 &lt {
   flavor = "balanced";
   tapping-term-ms = <200>;
