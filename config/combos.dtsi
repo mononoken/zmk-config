@@ -89,7 +89,7 @@ combo_colon {
     bindings = <&kp COLON>;
 };
 combo_qmark {
-    key-positions = <20 32>;
+    key-positions = <8 20>;
     bindings = <&kp QMARK>;
 };
 combo_exclm {
