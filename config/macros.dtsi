@@ -53,7 +53,7 @@ lca_w: lca_w {
 tmux_window: tmux_window {
     compatible = "zmk,behavior-macro-one-param";
     #binding-cells = <1>;
-    bindings =
+    bindings
         = <&macro_param_1to1>
         , <&kp LC(E) &kp MACRO_PLACEHOLDER &kp K_CANCEL>
         ;
