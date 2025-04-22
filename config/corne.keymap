@@ -39,7 +39,7 @@
         };
 
         behaviors {
-                twht: tmux_window_hold_tap {
+                tw: tmux_window_hold_tap {
                         compatible = "zmk,behavior-hold-tap";
                         #binding-cells = <2>;
                         tapping_term_ms = <200>;
@@ -64,7 +64,7 @@
                         display-name = "NUMB";
                         bindings = <
    &none &kp PRCNT &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none   &none    &kp PRCNT    &none
-   &none &tmux_window N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
+   &none &tw N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
    &none &trans    &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans  &trans   &trans       &none
                             &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
@@ -92,7 +92,7 @@
                         display-name = "RSYM";
                         bindings = <
    &none &kp PRCNT &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &kp AT   &none   &kp PRCNT    &none
-   &none &tmux_window N6    &kp N4   &kp N0    &kp N2         &trans   &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
+   &none &tw N6    &kp N4   &kp N0    &kp N2         &trans   &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
    &none &trans    &none    &kp LS(G) &kp N8         &trans   &trans       &kp AMPS  &trans   &trans  &trans       &none
                             &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
                         >;
