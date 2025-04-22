@@ -55,6 +55,10 @@ combo_numword {
     key-positions = <37 40>;
     bindings = <&num_word NUMB>;
 };
+combo_repeat {
+  key-positions = <21 33>;
+  bindings = <&key_repeat>;
+}
 // Symbols
 combo_minus {
     key-positions = <16 17>;
@@ -89,7 +93,7 @@ combo_qmark {
     bindings = <&kp QMARK>;
 };
 combo_exclm {
-    key-positions = <21 33>;
+    key-positions = <9 21>;
     bindings = <&kp EXCL>;
 };
 // Mods
