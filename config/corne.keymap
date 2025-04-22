@@ -64,7 +64,7 @@
                         display-name = "NUMB";
                         bindings = <
    &none &kp PRCNT &kp PLUS &kp ASTRK &kp K  &none   &trans       &kp J  &none   &none    &kp PRCNT    &none
-   &none TW(N6)    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
+   &none &tmux_window N6    &kp N4   &kp N0    &kp N2 &trans  &kp BSLH     &kp N3 &kp N1  &kp N5   &kp N7       &none
    &none &trans    &none    &kp LS(G) &kp N8 &trans  &trans       &kp N9 &trans  &trans   &trans       &none
                             &trans    &trans &trans  &kp K_CANCEL &trans &trans
                         >;
