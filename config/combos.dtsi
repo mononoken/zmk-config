@@ -85,11 +85,11 @@ combo_colon {
     bindings = <&kp COLON>;
 };
 combo_qmark {
-    key-positions = <8 20>;
+    key-positions = <20 32>;
     bindings = <&kp QMARK>;
 };
 combo_exclm {
-    key-positions = <9 21>;
+    key-positions = <21 33>;
     bindings = <&kp EXCL>;
 };
 // Mods
