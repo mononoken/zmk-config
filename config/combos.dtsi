@@ -22,6 +22,10 @@ combo_z {
     key-positions = <3 4>;
     bindings = <&kp Z>;
 };
+combo_v {
+    key-positions = <25 26>;
+    bindings = <&kp V>;
+};
 // Controls
 combo_esc {
     key-positions = <15 26>;
