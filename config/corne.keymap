@@ -46,7 +46,7 @@
                         quick_tap_ms = <QUICK_TAP_MS>;
                         flavor = "balanced";
                         bindings = <&tmux_swap>, <&kp>;
-                }
+                };
         };
 
         keymap {
