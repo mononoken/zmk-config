@@ -60,6 +60,10 @@ combo_minus {
     key-positions = <16 17>;
     bindings = <&kp MINUS>;
 };
+combo_under {
+    key-positions = <17 29>;
+    bindings = <&kp UNDER>;
+};
 combo_equal {
     key-positions = <18 19>;
     bindings = <&kp KP_EQUAL>;
@@ -81,44 +85,44 @@ combo_colon {
     bindings = <&kp COLON>;
 };
 combo_qmark {
-    key-positions = <20 32>;
+    key-positions = <8 20>;
     bindings = <&kp QMARK>;
 };
 combo_exclm {
-    key-positions = <21 33>;
+    key-positions = <9 21>;
     bindings = <&kp EXCL>;
 };
 // Mods
-combo_l_shift {
-    key-positions = <26 27>;
-    bindings = <&sk LSHIFT>;
-};
+// combo_l_shift {
+//     key-positions = <26 27>;
+//     bindings = <&sk LSHIFT>;
+// };
 combo_l_gui {
     key-positions = <27 28>;
     bindings = <&sk LGUI>;
 };
 combo_l_ctrl {
-    key-positions = <25 26>;
+    key-positions = <26 27>;
     bindings = <&sk LCTRL>;
 };
 combo_l_alt {
-    key-positions = <28 29>;
+    key-positions = <26 28>;
     bindings = <&sk LALT>;
 };
-combo_r_shift {
-    key-positions = <32 33>;
-    bindings = <&sk RSHIFT>;
-};
+// combo_r_shift {
+//     key-positions = <32 33>;
+//     bindings = <&sk RSHIFT>;
+// };
 combo_r_gui {
     key-positions = <31 32>;
     bindings = <&sk LGUI>;
 };
 combo_r_ctrl {
-    key-positions = <33 34>;
+    key-positions = <32 33>;
     bindings = <&sk LCTRL>;
 };
 combo_r_alt {
-    key-positions = <30 31>;
+    key-positions = <31 33>;
     bindings = <&sk LALT>;
 };
 // Vim
