@@ -54,9 +54,9 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &key_repeat &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp U            &kp Y          &kp LPAR   &none
+   &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp U            &kp Y          &kp RPAR   &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &kp O      &none
-   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp V          &kp FSLH  &kp L       &kp COMMA        &kp DOT        &sk RSHFT  &none
+   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp LPAR       &kp FSLH  &kp L       &kp COMMA        &kp DOT        &sk RSHFT  &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
                 };
@@ -73,7 +73,7 @@
                 symb_layer {
                         display-name = "SYMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &none     &kp RPAR  &none        &kp HASH  &none    &kp AT   &trans       &none
+   &none &trans    &kp PLUS &kp ASTRK &none     &kp RPAR  &none        &kp HASH  &kp AT   &none    &trans       &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LT   &kp GT   &kp DOLLAR   &none
    &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &kp LPAR  &trans       &kp AMPS  &trans   &trans   &kp PRCNT    &trans
                             &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
@@ -91,7 +91,7 @@
                 rsym_layer {
                         display-name = "RSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &none    &kp AT  &trans       &none
+   &none &trans    &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &kp AT   &none   &trans       &none
    &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &trans   &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
    &none &kp PRCNT &none    &kp LS(G) TW(N8)         &trans   &trans       &kp AMPS  &trans   &trans  &kp PRCNT    &none
                             &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
