@@ -75,7 +75,7 @@
                         bindings = <
    &none &kp PRCNT &kp PLUS &kp ASTRK &none     &kp RPAR  &none        &kp HASH  &kp AT   &none    &kp PRCNT    &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LT   &kp GT   &kp DOLLAR   &none
-   &none &trans    &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       &kp AMPS  &trans   &trans   &trans       &trans
+   &none &trans    &kp LBRC &kp RBRC  &kp PIPE  &kp LPAR  &trans       &kp AMPS  &trans   &trans   &trans       &trans
                             &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
                         >;
                 };
@@ -84,7 +84,7 @@
                         bindings = <
    &none &kp PRCNT &kp PLUS &kp ASTRK &none     &kp RPAR  &trans       &kp J          &none   &trans   &kp PRCNT   &none
    &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     TW(N3)         TW(N1)  TW(N5)   TW(N7)      &none
-   &none &trans    &kp LBRC &kp RBRC  &kp PIPE  &trans    &trans       TW(N9)         &trans  &trans   &trans      &none
+   &none &trans    &kp LBRC &kp RBRC  &kp PIPE  &kp LPAR  &trans       TW(N9)         &trans  &trans   &trans      &none
                             &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
                         >;
                 };
