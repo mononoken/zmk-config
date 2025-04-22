@@ -54,9 +54,9 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &kp V       &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp O            &kp U          &kp Y     &none
-   &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &key_repeat  &none
-   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp LPAR       &kp FSLH  &kp L       &kp COMMA        &kp DOT        &sk LSHFT    &none
+   &none &key_repeat &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp U            &kp Y          &kp LPAR   &none
+   &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &kp O      &none
+   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp V          &kp FSLH  &kp L       &kp COMMA        &kp DOT        &sk RSHFT  &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
                 };
