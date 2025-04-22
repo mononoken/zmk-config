@@ -92,7 +92,7 @@
                         display-name = "RSYM";
                         bindings = <
    &none &kp PRCNT &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &kp AT   &none   &kp PRCNT    &none
-   &none &kp N6    &kp N4   &kp N0    &kp N2         &trans   &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
+   &none &tmux_window N6    &kp N4   &kp N0    &kp N2         &trans   &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
    &none &trans    &none    &kp LS(G) &kp N8         &trans   &trans       &kp AMPS  &trans   &trans  &trans       &none
                             &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
                         >;
