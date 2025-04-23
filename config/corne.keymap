@@ -118,9 +118,9 @@
                 shrt_layer {
                         display-name = "SHRT";
                         bindings = <
-   &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &none         &none       &kp C_PREV   &kp C_NEXT    &none       &none
-   &none &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)   &none         &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
-   &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &none         &kp F13     &kp C_BRI_DN &kp C_BRI_UP  &none       &none
+   &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &BT_CLR       &none       &kp C_PREV   &kp C_NEXT    &none       &none
+   &none &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)   &BT_SEL 0     &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
+   &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &BT_SEL 1     &kp F13     &kp C_BRI_DN &kp C_BRI_UP  &none       &none
                              &trans    &trans    &trans      &kp K_CANCEL  &trans      &trans
                         >;
                 };
