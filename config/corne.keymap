@@ -56,7 +56,7 @@
                         bindings = <
    &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp U            &kp Y          &kp COMMA   &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &kp O      &none
-   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp LPAR       &kp FSLH  &kp L       &kp DOT          &key_repeat    &sk RSHFT  &none
+   &none &sk LSHFT   &kp W        &kp G        &kp D           &kp V          &kp FSLH  &kp L       &kp DOT          &key_repeat    &sk RSHFT  &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
                         >;
                 };
