@@ -54,7 +54,7 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp U            &kp Y          &kp COMMA   &none
+   &none &kp UNDER   &kp C        &kp F        &kp K           &kp B          &kp X     &kp J       &kp U            &kp Y          &kp COMMA  &none
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A            &kp I          &kp O      &none
    &none &sk LSHFT   &kp W        &kp G        &kp D           &kp V          &kp FSLH  &kp L       &kp DOT          &key_repeat    &sk RSHFT  &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
@@ -74,8 +74,8 @@
                         display-name = "SYMB";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &none     &kp RPAR  &none        &kp HASH  &kp AT   &none    &trans       &none
-   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LT   &kp GT   &kp DOLLAR   &none
-   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &kp LPAR  &trans       &kp AMPS  &trans   &trans   &kp PRCNT    &trans
+   &none &kp CARET &kp LPAR &kp RPAR  &kp TILDE &none     &kp BSLH     &kp GRAVE &kp LBKT &kp RBKT &kp DOLLAR   &none
+   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &kp LPAR  &trans       &kp AMPS  &kp LBRC &kp RBRC &kp PRCNT    &trans
                             &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
                         >;
                 };
@@ -83,17 +83,17 @@
                         display-name = "LSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &none     &kp RPAR  &trans       &kp J          &none   &trans   &trans      &none
-   &none &kp CARET &kp LBKT &kp RBKT  &kp TILDE &none     &kp BSLH     TW(N3)         TW(N1)  TW(N5)   TW(N7)      &none
-   &none &kp PRCNT &kp LBRC &kp RBRC  &kp PIPE  &kp LPAR  &trans       TW(N9)         &trans  &trans   &kp PRCNT   &none
+   &none &kp CARET &kp LPAR &kp RPAR  &kp TILDE &none     &kp BSLH     TW(N3)         TW(N1)  TW(N5)   TW(N7)      &none
+   &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &kp LPAR  &trans       TW(N9)         &trans  &trans   &kp PRCNT   &none
                             &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
                         >;
                 };
                 rsym_layer {
                         display-name = "RSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &kp AT   &none   &trans       &none
-   &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &trans   &kp BSLH     &kp GRAVE &kp LT   &kp GT  &kp DOLLAR   &none
-   &none &kp PRCNT &none    &kp LS(G) TW(N8)         &trans   &trans       &kp AMPS  &trans   &trans  &kp PRCNT    &none
+   &none &trans    &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &kp AT   &none    &trans       &none
+   &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &trans   &kp BSLH     &kp GRAVE &kp LBKT &kp LBKT &kp DOLLAR   &none
+   &none &kp PRCNT &none    &kp LS(G) TW(N8)         &trans   &trans       &kp AMPS  &kp LBRC &kp RBRC &kp PRCNT    &none
                             &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
                         >;
                 };
@@ -120,7 +120,7 @@
                         bindings = <
    &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &none         &none       &kp C_PREV   &kp C_NEXT    &none       &none
    &none &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)   &none         &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
-   &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &none         &none       &kp C_BRI_DN &kp C_BRI_UP  &none       &none
+   &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &none         &KP F13     &kp C_BRI_DN &kp C_BRI_UP  &none       &none
                              &trans    &trans    &trans      &kp K_CANCEL  &trans      &trans
                         >;
                 };
