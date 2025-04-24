@@ -45,7 +45,7 @@
                         tapping_term_ms = <200>;
                         quick_tap_ms = <QUICK_TAP_MS>;
                         flavor = "balanced";
-                        bindings = <&tmux_window>, <&numword>;
+                        bindings = <&tmux_window>, <&num_word>;
                 };
         };
 
