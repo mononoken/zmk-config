@@ -45,7 +45,7 @@
                         tapping_term_ms = <200>;
                         quick_tap_ms = <QUICK_TAP_MS>;
                         flavor = "balanced";
-                        bindings = <&tmux_window>, <&numword>;
+                        bindings = <&tmux_window>, <&kp>;
                 };
         };
 
@@ -85,7 +85,7 @@
    &none &trans    &kp PLUS &kp ASTRK &none     &kp RPAR  &trans       &kp J          &none   &trans   &trans      &none
    &none &kp CARET &kp LPAR &kp RPAR  &kp TILDE &none     &kp BSLH     TW(N3)         TW(N1)  TW(N5)   TW(N7)      &none
    &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &kp LPAR  &trans       TW(N9)         &trans  &trans   &kp PRCNT   &none
-                            &trans    &trans    &trans    &kp K_CANCEL &sl NUMB       &trans
+                            &trans    &trans    &trans    &kp K_CANCEL &num_word NUMB &trans
                         >;
                 };
                 rsym_layer {
@@ -94,7 +94,7 @@
    &none &trans    &kp PLUS &kp ASTRK &kp K          &kp RPAR &none        &kp HASH  &kp AT   &none    &trans       &none
    &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &trans   &kp BSLH     &kp GRAVE &kp LBKT &kp LBKT &kp DOLLAR   &none
    &none &kp PRCNT &none    &kp LS(G) TW(N8)         &trans   &trans       &kp AMPS  &kp LBRC &kp RBRC &kp PRCNT    &none
-                            &trans    &sl NUMB       &trans   &kp K_CANCEL &trans &trans
+                            &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
                         >;
                 };
                 navi_layer {
