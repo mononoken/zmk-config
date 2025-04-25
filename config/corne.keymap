@@ -82,7 +82,7 @@
                 lsym_layer {
                         display-name = "LSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp BSLSH &none   &none        &trans         &kp AT  &kp HASH &trans      &none
+   &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &none   &none        &trans         &kp AT  &kp HASH &trans      &none
    &none &kp CARET &kp LPAR &kp RPAR  &kp TILDE &none   &none        TW(N3)         TW(N1)  TW(N5)   TW(N7)      &none
    &none &kp PRCNT &kp LT   &kp GT    &kp PIPE  &trans  &none        TW(N9)         &trans  &trans   &kp PRCNT   &none
                             &trans    &trans    &trans  &kp K_CANCEL &num_word NUMB &trans
@@ -91,7 +91,7 @@
                 rsym_layer {
                         display-name = "RSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp BSLSH      &none    &none        &trans    &kp AT   &kp HASH &trans       &none
+   &none &trans    &kp PLUS &kp ASTRK &kp BSLH       &none    &none        &trans    &kp AT   &kp HASH &trans       &none
    &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &none    &none        &kp GRAVE &kp LBKT &kp LBKT &kp DOLLAR   &none
    &none &kp PRCNT &none    &kp LS(G) TW(N8)         &trans   &none        &kp AMPS  &kp LBRC &kp RBRC &kp PRCNT    &none
                             &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
@@ -109,7 +109,7 @@
                 wnav_layer {
                         display-name = "WNAV";
                         bindings = <
-   &none &none      &none      &none      &none      &none   &none   &trans      &lca_w       &lca_e      &lca_m      &none
+   &none &none      &none      &none      &none      &none   &none   &trans      &lca_w       &lca_e      &lca_m     &none
    &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)  &kp LA(N1)   &kp LA(N5)  &kp LA(N7) &none
    &none &none      &none      &none      &kp LA(N8) &none   &none   TMUX_LT     TMUX_DN      TMUX_UP     TMUX_RT    &none
                                &trans     &trans     &trans  &trans  &trans      &trans
