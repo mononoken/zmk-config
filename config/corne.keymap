@@ -65,7 +65,7 @@
                         bindings = <
    &none &none     &kp PLUS &kp ASTRK &kp BSLH  &none   &none        &trans &none   &kp HASH &trans       &none
    &none &kp N6    &kp N4   &kp N0    &kp N2    &none   &none        &kp N3 &kp N1  &kp N5   &kp N7       &none
-   &none &kp PRCNT &none    &kp LS(G) &kp N8    &trans  &none        &kp N9 &trans  &trans   &kp PRCNT    &none
+   &none &kp PRCNT &none    &kp LS(G) &kp N8    &trans  &kp LS(G)    &kp N9 &trans  &trans   &kp PRCNT    &none
                             &trans    &trans    &trans  &kp K_CANCEL &trans &trans
                         >;
                 };
