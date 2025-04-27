@@ -39,9 +39,8 @@
         };
 
         behaviors {
-                tw: foo {
-                        compatible = "bar";
-                        hello = "";
+                tw: tmux_window_hold_tap {
+                        compatible = "zmk,behavior-hold-tap";
                         #binding-cells = <2>;
                         tapping_term_ms = <200>;
                         quick_tap_ms = <QUICK_TAP_MS>;
