@@ -54,10 +54,10 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &kp B       &kp F        &kp L        &kp K           &kp X          &kp P        &kp G       &kp O      &kp U       &kp UNDER   &none
-   &none &kp N       &kp S        &kp H        &kp T           &kp M          &kp Y        &kp C       &kp A      &kp E       &kp I       &none
-   &none &sk LSHFT   &kp V        &kp J        &kp D           &kp FSLH       &key_repeat  &kp W       &kp COMMA  &kp DOT     &sk RSHFT   &none
-                                  &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp R        &sl RSYM    &sl SHRT
+   &none &kp UNDER   &kp U        &kp O        &kp G           &kp P          &kp X       &kp K       &kp L        &kp F     &kp B        &none
+   &none &kp I       &kp E        &kp A        &kp C           &kp Y          &kp M       &kp T       &kp H        &kp S     &kp N        &none
+   &none &sk LSHFT   &kp DOT      &kp COMMA    &kp W           &key_repeat    &kp FSLH    &kp D       &kp J        &kp V     &sk RSHFT    &none
+                                  &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp R       &sl RSYM    &sl SHRT
                         >;
                 };
                 numb_layer {
