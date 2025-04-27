@@ -39,8 +39,9 @@
         };
 
         behaviors {
-                tw: tmux_window_hold_tap {
-                        compatible = "zmk,behavior-hold-tap";
+                tw: foo {
+                        compatible = "bar";
+                        hello = "";
                         #binding-cells = <2>;
                         tapping_term_ms = <200>;
                         quick_tap_ms = <QUICK_TAP_MS>;
@@ -58,6 +59,15 @@
    &none &kp R       &kp S        &kp T        &kp H           &kp P          &kp M     &kp N       &kp A        &kp I     &key_repeat  &none
    &none &sk LSHFT   &kp W        &kp G        &kp D           &kp V          &kp FSLH  &kp L       &kp COMMA    &kp DOT   &sk RSHFT    &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp E     &sl RSYM    &sl SHRT
+                        >;
+                };
+                nght_layer {
+                        display-name = "NGHT";
+                        bindings = <
+   &none &kp B       &kp F        &kp L        &kp K           &kp X          &kp P       &kp G       &kp O        &kp U     &kp UNDER    &none
+   &none &kp N       &kp S        &kp H        &kp T           &kp M          &kp Y       &kp C       &kp A        &kp E     &kp I        &none
+   &none &sk LSHFT   &kp V        &kp J        &kp D           &kp FSLH       &key_repeat &kp W       &kp COMMA    &kp DOT   &sk RSHFT    &none
+                                  &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp R       &sl RSYM    &sl SHRT
                         >;
                 };
                 numb_layer {
@@ -118,9 +128,9 @@
                 shrt_layer {
                         display-name = "SHRT";
                         bindings = <
-   &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &bt BT_CLR    &none       &kp C_PREV   &kp C_NEXT    &none       &none
+   &none &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)   &bt BT_CLR    &none       &kp C_PREV   &kp C_NEXT    &tog BASE   &none
    &none &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)   &bt BT_SEL 0  &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
-   &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &bt BT_SEL 1  &kp F13     &kp C_BRI_DN &kp C_BRI_UP  &none       &none
+   &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)   &bt BT_SEL 1  &kp F13     &kp C_BRI_DN &kp C_BRI_UP  &tog NGHT   &none
                              &trans    &trans    &trans      &kp K_CANCEL  &trans      &trans
                         >;
                 };
