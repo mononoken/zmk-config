@@ -93,11 +93,11 @@ combo_exclm {
     bindings = <&kp EXCL>;
 };
 // Mods
-// combo_l_shift {
-//     timeout-ms = <20>;
-//     key-positions = <26 27>;
-//     bindings = <&sk LSHIFT>;
-// };
+combo_l_shift {
+    timeout-ms = <20>;
+    key-positions = <14 15>;
+    bindings = <&sk LSHIFT>;
+};
 combo_l_gui {
     key-positions = <27 28>;
     bindings = <&sk LGUI>;
@@ -110,10 +110,11 @@ combo_l_alt {
     key-positions = <26 28>;
     bindings = <&sk LALT>;
 };
-// combo_r_shift {
-//     key-positions = <32 33>;
-//     bindings = <&sk RSHIFT>;
-// };
+combo_r_shift {
+    timeout-ms = <20>;
+    key-positions = <20 21>;
+    bindings = <&sk RSHIFT>;
+};
 combo_r_gui {
     key-positions = <31 32>;
     bindings = <&sk LGUI>;
