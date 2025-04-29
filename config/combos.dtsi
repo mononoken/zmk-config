@@ -94,6 +94,7 @@ combo_exclm {
 };
 // Mods
 // combo_l_shift {
+//     timeout-ms = <20>;
 //     key-positions = <26 27>;
 //     bindings = <&sk LSHIFT>;
 // };
