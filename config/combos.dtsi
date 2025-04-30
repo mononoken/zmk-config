@@ -15,7 +15,7 @@ combo_q {
     bindings = <&kp Q>;
 };
 combo_qu {
-    key-positions = <8 9>;
+    key-positions = <2 3>;
     bindings = <&qu_macro>;
 };
 combo_z {
