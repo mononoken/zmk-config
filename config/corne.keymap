@@ -103,7 +103,7 @@
    &none &none         &kp LEFT        &kp UP           &kp RIGHT   &kp HOME  &none    &trans    &kp LA(S)  &kp LA(G) &none     &none
    &none &kp LG(LS(T)) &kp LC(LS(TAB)) &mt LCTRL DOWN   &kp LC(TAB) &none     &none    &kp H     &kp J      &kp K     &kp L     &none
    &none &trans        &none           &kp PG_UP        &kp PG_DN   &kp END   &none    &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
-                                       &trans           &trans      &mo WNAV  &trans   &trans    &trans
+                                       &trans           &trans      &trans    &mo WNAV  &trans    &trans
                         >;
                 };
                 wnav_layer {
