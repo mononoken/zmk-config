@@ -42,8 +42,8 @@
                 tw: tmux_window_hold_tap {
                         compatible = "zmk,behavior-hold-tap";
                         #binding-cells = <2>;
-                        tapping_term_ms = <200>;
-                        quick_tap_ms = <QUICK_TAP_MS>;
+                        tapping-term-ms = <200>;
+                        quick-tap-ms = <QUICK_TAP_MS>;
                         flavor = "balanced";
                         bindings = <&tmux_window>, <&kp>;
                 };
