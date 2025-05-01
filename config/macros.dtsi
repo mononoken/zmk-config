@@ -1,3 +1,9 @@
+cw_macro: cw_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp W>;
+};
+
 qu_macro: qu_macro {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
