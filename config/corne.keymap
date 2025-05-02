@@ -101,7 +101,7 @@
                         display-name = "RSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp BSLH       &none    &none        &trans    &kp AT   &kp HASH &trans       &none
-   &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &none    &none        &kp GRAVE &kp LBKT &kp LBKT &kp DOLLAR   &none
+   &none TW(N6)    TW(N4)   TW(N0)    TW(N2)         &none    &none        &kp GRAVE &kp LBKT &kp RBKT &kp DOLLAR   &none
    &none &kp PRCNT &none    &kp LS(G) TW(N8)         &trans   &none        &kp AMPS  &kp LBRC &kp RBRC &kp PRCNT    &none
                             &trans    &num_word NUMB &trans   &kp K_CANCEL &trans &trans
                         >;
