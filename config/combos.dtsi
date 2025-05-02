@@ -205,15 +205,15 @@ combo_left_pipe {
     bindings = <&kp PIPE>;
 };
 // Left Thumb Numbers
-combo_left_n1 {
-    timeout-ms = <50>;
-    key-positions = <19 37>;
-    bindings = <&kp N1>;
-};
 combo_left_n3 {
     timeout-ms = <50>;
-    key-positions = <20 37>;
+    key-positions = <19 37>;
     bindings = <&kp N3>;
+};
+combo_left_n1 {
+    timeout-ms = <50>;
+    key-positions = <20 37>;
+    bindings = <&kp N1>;
 };
 combo_left_n5 {
     timeout-ms = <50>;
