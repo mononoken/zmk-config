@@ -65,7 +65,7 @@
                         bindings = <
    &none &kp COMMA   &kp U        &kp O        &kp W           &kp P          &kp LPAR    &kp K       &kp L        &kp F     &kp X        &none
    &none &kp I       &kp E        &kp A        &kp C           &kp Y          &kp M       &kp T       &kp H        &kp S     &kp N        &none
-   &none &kp DOT     &kp FSLH     &kp UNDER    &kp G           &key_repeat    &kp RPAR    &kp D       &kp J        &kp V     &kp B        &none
+   &none &kp DOT     &kp FSLH     &kp UNDER    &kp G           &kp APOS       &kp RPAR    &kp D       &kp J        &kp V     &kp B        &none
                                   &sl SHRT     &sl LSYM        &lt NAVI SPACE &kp R       RT(RSYM)    &sl SHRT
                         >;
                 };
