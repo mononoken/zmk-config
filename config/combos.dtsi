@@ -174,32 +174,32 @@ combo_left_lpar {
     key-positions = <14 37>;
     bindings = <&kp LBRC>;
 };
-combo_left {
+combo_left_rbrc {
     timeout-ms = <50>;
     key-positions = <15 37>;
     bindings = <&kp RBRC>;
 };
-combo_left {
+combo_left_tilde {
     timeout-ms = <50>;
     key-positions = <16 37>;
     bindings = <&kp TILDE>;
 };
-combo_left {
+combo_left_prcnt {
     timeout-ms = <50>;
     key-positions = <25 37>;
     bindings = <&kp PRCNT>;
 };
-combo_left {
+combo_left_lt {
     timeout-ms = <50>;
     key-positions = <26 37>;
     bindings = <&kp LT>;
 };
-combo_left {
+combo_left_gt {
     timeout-ms = <50>;
     key-positions = <27 37>;
     bindings = <&kp GT>;
 };
-combo_left {
+combo_left_pipe {
     timeout-ms = <50>;
     key-positions = <28 37>;
     bindings = <&kp PIPE>;
