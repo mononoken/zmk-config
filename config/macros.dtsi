@@ -1,9 +1,18 @@
+cw_macro: cw_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp W>;
+};
+oa_macro: oa_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp O &kp A>;
+};
 qu_macro: qu_macro {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings = <&kp Q &kp U>;
 };
-
 save_vim: save_vim {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -11,7 +20,6 @@ save_vim: save_vim {
         = <&kp ESC &kp COLON &kp W &kp ENTER>
         ;
 };
-
 quit_vim: quit_vim {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -19,7 +27,6 @@ quit_vim: quit_vim {
         = <&kp ESC &kp COLON &kp Q &kp ENTER>
         ;
 };
-
 lca_e: lca_e {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -29,7 +36,6 @@ lca_e: lca_e {
           , <&macro_release &kp LCTRL &kp LALT>
           ;
 };
-
 lca_m: lca_m {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -39,7 +45,6 @@ lca_m: lca_m {
           , <&macro_release &kp LCTRL &kp LALT>
           ;
 };
-
 lca_w: lca_w {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -49,7 +54,6 @@ lca_w: lca_w {
           , <&macro_release &kp LCTRL &kp LALT>
           ;
 };
-
 tmux_window: tmux_window {
     compatible = "zmk,behavior-macro-one-param";
     #binding-cells = <1>;
