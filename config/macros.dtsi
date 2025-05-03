@@ -13,6 +13,11 @@ qu_macro: qu_macro {
     #binding-cells = <0>;
     bindings = <&kp Q &kp U>;
 };
+rr_macro: rr_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp R &kp R>;
+};
 save_vim: save_vim {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
