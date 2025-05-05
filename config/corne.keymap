@@ -72,19 +72,19 @@
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &none   &trans       &none   &none      &kp HASH &trans       &none
-   &none &kp N6    &kp N4   &kp N0    &kp N2    &none   &none        &kp N3  &kp N1     &kp N5   &kp N7       &none
-   &none &trans    &trans   &trans    &kp N8    &trans  &trans       &kp N9  &kp LS(G)  &none    &kp PRCNT    &none
-                            &trans    &trans    &trans  &kp K_CANCEL &trans  &trans
+   &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &trans  &trans       &kp PRCNT  &kp AT     &kp HASH  &trans     &none
+   &none &kp N6    &kp N4   &kp N0    &kp N2    &none   &none        &kp N3     &kp N1     &kp N5    &kp N7     &none
+   &none &none     &none    &kp LS(G) &kp N8    &trans  &trans       &kp N9     &trans     &trans    &trans     &none
+                            &trans    &trans    &trans  &kp K_CANCEL &trans     &trans
                         >;
                 };
                 symb_layer {
                         display-name = "SYMB";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &none     &trans       &none     &kp AT   &kp HASH &trans       &none
-   &none &kp CARET &kp LPAR &kp RPAR  &kp TILDE &none     &none        &kp GRAVE &kp LBKT &kp RBKT &kp DOLLAR   &none
-   &none &trans    &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp AMPS  &kp LBRC &kp RBRC &kp PRCNT    &trans
-                            &trans    &trans    &trans    &kp K_CANCEL &trans    &trans
+   &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &none     &trans       &kp PRCNT  &kp AT     &kp HASH  &trans       &none
+   &none &kp CARET &kp LBRC &kp RBRC  &kp TILDE &none     &none        &kp GRAVE  &kp LBKT   &kp RBKT  &kp DOLLAR   &none
+   &none &none     &kp LT   &kp GT    &kp PIPE  &trans    &trans       &kp AMPS   &trans     &trans    &trans       &none
+                            &trans    &trans    &trans    &kp K_CANCEL &trans     &trans
                         >;
                 };
                 navi_layer {
