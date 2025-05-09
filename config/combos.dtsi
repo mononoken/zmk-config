@@ -22,7 +22,7 @@ combo_z {
     bindings = <&kp Z>;
 };
 combo_cw {
-    key-positions = <4 16>;
+    key-positions = <7 19>;
     bindings = <&cw_macro>;
 };
 combo_oa {
