@@ -78,15 +78,6 @@
                             &trans    &trans    &trans  &trans    &kp K_CANCEL  &trans
                         >;
                 };
-                symb_layer {
-                        display-name = "SYMB";
-                        bindings = <
-   &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &trans    &none     &kp PRCNT     &kp AT     &kp HASH  &trans       &none
-   &none &kp CARET &kp LBRC &kp RBRC  &kp TILDE &none     &none     &kp GRAVE     &kp LBKT   &kp RBKT  &kp DOLLAR   &none
-   &none &none     &kp LT   &kp GT    &kp PIPE  &trans    &trans    &kp AMPS      &trans     &trans    &trans       &none
-                            &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
-                        >;
-                };
                 lsym_layer {
                         display-name = "LSYM";
                         bindings = <
