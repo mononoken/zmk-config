@@ -63,7 +63,7 @@ combo_capsword {
     bindings = <&caps_word>;
 };
 combo_numword {
-    key-positions = <38 39>;
+    key-positions = <36 41>;
     bindings = <&num_word NUMB>;
 };
 // Symbols
