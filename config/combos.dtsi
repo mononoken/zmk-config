@@ -22,7 +22,7 @@ combo_z {
     bindings = <&kp Z>;
 };
 combo_cw {
-    key-positions = <4 16>;
+    key-positions = <7 19>;
     bindings = <&cw_macro>;
 };
 combo_oa {
@@ -63,7 +63,7 @@ combo_capsword {
     bindings = <&caps_word>;
 };
 combo_numword {
-    key-positions = <37 40>;
+    key-positions = <36 41>;
     bindings = <&num_word NUMB>;
 };
 // Symbols
@@ -150,153 +150,4 @@ combo_save_vim {
 combo_quit_vim {
     key-positions = <26 27 28>;
     bindings = <&quit_vim>;
-};
-// Left Thumb Symbols
-combo_left_plus {
-    timeout-ms = <50>;
-    key-positions = <2 37>;
-    bindings = <&kp PLUS>;
-};
-combo_left_astrk {
-    timeout-ms = <50>;
-    key-positions = <3 37>;
-    bindings = <&kp ASTRK>;
-};
-combo_left_bslh {
-    timeout-ms = <50>;
-    key-positions = <4 37>;
-    bindings = <&kp BSLH>;
-};
-combo_left_caret {
-    timeout-ms = <50>;
-    key-positions = <13 37>;
-    bindings = <&kp CARET>;
-};
-combo_left_lbrc {
-    timeout-ms = <50>;
-    key-positions = <14 37>;
-    bindings = <&kp LBRC>;
-};
-combo_left_rbrc {
-    timeout-ms = <50>;
-    key-positions = <15 37>;
-    bindings = <&kp RBRC>;
-};
-combo_left_tilde {
-    timeout-ms = <50>;
-    key-positions = <16 37>;
-    bindings = <&kp TILDE>;
-};
-combo_left_prcnt {
-    timeout-ms = <50>;
-    key-positions = <25 37>;
-    bindings = <&kp PRCNT>;
-};
-combo_left_lt {
-    timeout-ms = <50>;
-    key-positions = <26 37>;
-    bindings = <&kp LT>;
-};
-combo_left_gt {
-    timeout-ms = <50>;
-    key-positions = <27 37>;
-    bindings = <&kp GT>;
-};
-combo_left_pipe {
-    timeout-ms = <50>;
-    key-positions = <28 37>;
-    bindings = <&kp PIPE>;
-};
-// Left Thumb Numbers
-combo_left_n3 {
-    timeout-ms = <50>;
-    key-positions = <19 37>;
-    bindings = <&kp N3>;
-};
-combo_left_n1 {
-    timeout-ms = <50>;
-    key-positions = <20 37>;
-    bindings = <&kp N1>;
-};
-combo_left_n5 {
-    timeout-ms = <50>;
-    key-positions = <21 37>;
-    bindings = <&kp N5>;
-};
-combo_left_n7 {
-    timeout-ms = <50>;
-    key-positions = <22 37>;
-    bindings = <&kp N7>;
-};
-combo_left_n9 {
-    timeout-ms = <50>;
-    key-positions = <31 37>;
-    bindings = <&kp N9>;
-};
-// Right Thumb Symbols
-combo_right_prcnt {
-    timeout-ms = <50>;
-    key-positions = <7 40>;
-    bindings = <&kp PRCNT>;
-};
-combo_right_at {
-    timeout-ms = <50>;
-    key-positions = <8 40>;
-    bindings = <&kp AT>;
-};
-combo_right_hash {
-    timeout-ms = <50>;
-    key-positions = <9 40>;
-    bindings = <&kp HASH>;
-};
-combo_right_grave {
-    timeout-ms = <50>;
-    key-positions = <19 40>;
-    bindings = <&kp GRAVE>;
-};
-combo_right_lbkt {
-    timeout-ms = <50>;
-    key-positions = <20 40>;
-    bindings = <&kp LBKT>;
-};
-combo_right_rbkt {
-    timeout-ms = <50>;
-    key-positions = <21 40>;
-    bindings = <&kp RBKT>;
-};
-combo_right_dollar {
-    timeout-ms = <50>;
-    key-positions = <22 40>;
-    bindings = <&kp DOLLAR>;
-};
-combo_right_amps {
-    timeout-ms = <50>;
-    key-positions = <31 40>;
-    bindings = <&kp AMPS>;
-};
-// Right Thumb Numbers
-combo_right_n6 {
-    timeout-ms = <50>;
-    key-positions = <13 40>;
-    bindings = <&kp N6>;
-};
-combo_right_n4 {
-    timeout-ms = <50>;
-    key-positions = <14 40>;
-    bindings = <&kp N4>;
-};
-combo_right_n0 {
-    timeout-ms = <50>;
-    key-positions = <15 40>;
-    bindings = <&kp N0>;
-};
-combo_right_n2 {
-    timeout-ms = <50>;
-    key-positions = <16 40>;
-    bindings = <&kp N2>;
-};
-combo_right_n8 {
-    timeout-ms = <50>;
-    key-positions = <28 40>;
-    bindings = <&kp N8>;
 };
