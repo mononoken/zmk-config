@@ -72,7 +72,7 @@ combo_minus {
     bindings = <&kp MINUS>;
 };
 combo_under {
-    key-positions = <15 27>;
+    key-positions = <17 29>;
     bindings = <&kp UNDER>;
 };
 combo_dquo {
@@ -88,11 +88,11 @@ combo_colon {
     bindings = <&kp COLON>;
 };
 combo_qmark {
-    key-positions = <1 13>;
+    key-positions = <14 26>;
     bindings = <&kp QMARK>;
 };
 combo_exclm {
-    key-positions = <13 25>;
+    key-positions = <15 27>;
     bindings = <&kp EXCL>;
 };
 // Mods
