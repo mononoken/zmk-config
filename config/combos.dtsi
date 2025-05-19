@@ -72,12 +72,8 @@ combo_minus {
     bindings = <&kp MINUS>;
 };
 combo_under {
-    key-positions = <17 29>;
+    key-positions = <15 27>;
     bindings = <&kp UNDER>;
-};
-combo_equal {
-    key-positions = <18 19>;
-    bindings = <&kp KP_EQUAL>;
 };
 combo_dquo {
     key-positions = <16 28>;
