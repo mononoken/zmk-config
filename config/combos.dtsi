@@ -22,7 +22,7 @@ combo_z {
     bindings = <&kp Z>;
 };
 combo_cw {
-    key-positions = <7 19>;
+    key-positions = <4 16>;
     bindings = <&cw_macro>;
 };
 combo_oa {
@@ -79,12 +79,8 @@ combo_equal {
     key-positions = <18 19>;
     bindings = <&kp KP_EQUAL>;
 };
-combo_squo {
-    key-positions = <16 28>;
-    bindings = <&kp SQT>;
-};
 combo_dquo {
-    key-positions = <19 31>;
+    key-positions = <16 28>;
     bindings = <&kp DQT>;
 };
 combo_semi {
@@ -96,11 +92,11 @@ combo_colon {
     bindings = <&kp COLON>;
 };
 combo_qmark {
-    key-positions = <20 32>;
+    key-positions = <1 13>;
     bindings = <&kp QMARK>;
 };
 combo_exclm {
-    key-positions = <21 33>;
+    key-positions = <13 25>;
     bindings = <&kp EXCL>;
 };
 // Mods
@@ -139,7 +135,7 @@ combo_r_alt {
     bindings = <&sk LALT>;
 };
 // Vim
-combo_ctrl_q {
+combo_ctrl_w {
     key-positions = <7 8 9>;
     bindings = <&kp LC(W)>;
 };
