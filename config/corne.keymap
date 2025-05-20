@@ -82,7 +82,7 @@
                         display-name = "LSYM";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &trans    &trans    &kp PRCNT     &kp AT     &kp HASH  &trans       &none
-   &none &kp CARET &kp LBRC &kp RBRC  &kp TILDE &none     &none     &kp N3        &kp N1     &kp N5    &kp N7       &none
+   &none &kp CARET &kp LBRC &kp RBRC  &kp GRAVE &none     &none     &kp N3        &kp N1     &kp N5    &kp N7       &none
    &none &none     &kp LT   &kp GT    &kp PIPE  &trans    &trans    &kp N9        &trans     &trans    &trans       &none
                             &trans    &trans    &trans    &trans    &kp K_CANCEL  &num_word NUMB
                         >;
@@ -90,8 +90,8 @@
                 rsym_layer {
                         display-name = "RSYM";
                         bindings = <
-   &none &trans    &kp PLUS &kp ASTRK       &kp BSLH  &trans    &trans    &kp PRCNT     &kp AT     &kp HASH  &trans       &none
-   &none &kp N6    &kp N4   &kp N0          &kp N2    &none     &none     &kp GRAVE     &kp LBKT   &kp RBKT  &kp DOLLAR   &none
+   &none &trans    &kp PLUS &kp ASTRK       &kp BSLH  &trans    &trans    &kp TILDE     &kp AT     &kp HASH  &trans       &none
+   &none &kp N6    &kp N4   &kp N0          &kp N2    &none     &none     &kp PRCNT     &kp LBKT   &kp RBKT  &kp DOLLAR   &none
    &none &none     &kp LT   &kp GT          &kp N8    &trans    &trans    &kp AMPS      &trans     &trans    &trans       &none
                             &num_word NUMB  &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
