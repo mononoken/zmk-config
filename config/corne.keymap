@@ -73,8 +73,8 @@
                         display-name = "NUMB";
                         bindings = <
    &none &trans    &kp PLUS &kp ASTRK &kp BSLH  &trans  &kp K     &kp PRCNT     &kp AT     &kp HASH  &trans     &none
-   &none &kp N4    &kp N3   &kp N1    &kp N2    &none   &none     &kp N6        &kp N0     &kp N7    &kp N8     &none
-   &none &trans    &trans   &trans    &kp N5    &trans  &trans    &kp N9        &kp LS(G)  &kp J     &trans     &none
+   &none &kp N6    &kp N4   &kp N0    &kp N2    &none   &none     &kp N3        &kp N1     &kp N5    &kp N7     &none
+   &none &trans    &trans   &trans    &kp N8    &trans  &trans    &kp N9        &kp LS(G)  &kp J     &trans     &none
                             &trans    &trans    &trans  &trans    &kp K_CANCEL  &trans
                         >;
                 };
@@ -109,8 +109,8 @@
                         display-name = "WNAV";
                         bindings = <
    &none &none      &none      &none      &none      &none   &none   &trans      &lca_w       &lca_e      &lca_m     &none
-   &none &kp LA(N4) &kp LA(N3) &kp LA(N1) &kp LA(N2) &none   &none   &kp LA(N6)  &kp LA(N0)   &kp LA(N7)  &kp LA(N8) &none
-   &none &none      &none      &none      &kp LA(N5) &none   &none   TMUX_LT     TMUX_DN      TMUX_UP     TMUX_RT    &none
+   &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)  &kp LA(N1)   &kp LA(N5)  &kp LA(N7) &none
+   &none &none      &none      &none      &kp LA(N8) &none   &none   TMUX_LT     TMUX_DN      TMUX_UP     TMUX_RT    &none
                                &trans     &trans     &trans  &trans  &trans      &trans
                         >;
                 };
