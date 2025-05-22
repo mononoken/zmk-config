@@ -21,10 +21,10 @@ combo_z {
     key-positions = <7 8>;
     bindings = <&kp Z>;
 };
-combo_cw {
-    key-positions = <4 16>;
-    bindings = <&cw_macro>;
-};
+// combo_cw {
+//     key-positions = <4 16>;
+//     bindings = <&cw_macro>;
+// };
 combo_oa {
     key-positions = <3 15>;
     bindings = <&oa_macro>;
@@ -95,12 +95,20 @@ combo_exclm {
     key-positions = <15 27>;
     bindings = <&kp EXCL>;
 };
-// Mods
-combo_l_shift {
-    timeout-ms = <20>;
-    key-positions = <14 15>;
-    bindings = <&sk LSHIFT>;
+combo_lpar {
+    key-positions = <20 32>;
+    bindings = <&kp LPAR>;
 };
+combo_rpar {
+    key-positions = <21 33>;
+    bindings = <&kp RPAR>;
+};
+// Mods
+// combo_l_shift {
+//     timeout-ms = <20>;
+//     key-positions = <14 15>;
+//     bindings = <&sk LSHIFT>;
+// };
 combo_l_gui {
     key-positions = <27 28>;
     bindings = <&sk LGUI>;
@@ -113,11 +121,11 @@ combo_l_alt {
     key-positions = <26 28>;
     bindings = <&sk LALT>;
 };
-combo_r_shift {
-    timeout-ms = <20>;
-    key-positions = <20 21>;
-    bindings = <&sk RSHIFT>;
-};
+// combo_r_shift {
+//     timeout-ms = <20>;
+//     key-positions = <20 21>;
+//     bindings = <&sk RSHIFT>;
+// };
 combo_r_gui {
     key-positions = <31 32>;
     bindings = <&sk LGUI>;
