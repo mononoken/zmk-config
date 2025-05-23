@@ -9,26 +9,26 @@
 compatible = "zmk,combos";
 
 // Letters
-combo_q {
-    key-positions = <1 2>;
-    bindings = <&kp Q>;
-};
-combo_qu {
-    key-positions = <8 9>;
-    bindings = <&qu_macro>;
-};
+// combo_q {
+//     key-positions = <1 2>;
+//     bindings = <&kp Q>;
+// };
+// combo_qu {
+//     key-positions = <8 9>;
+//     bindings = <&qu_macro>;
+// };
 combo_z {
     key-positions = <7 8>;
     bindings = <&kp Z>;
 };
-combo_oa {
-    key-positions = <3 15>;
-    bindings = <&oa_macro>;
-};
-combo_rr {
-    key-positions = <39 40>;
-    bindings = <&rr_macro>;
-};
+// combo_oa {
+//     key-positions = <3 15>;
+//     bindings = <&oa_macro>;
+// };
+// combo_rr {
+//     key-positions = <39 40>;
+//     bindings = <&rr_macro>;
+// };
 // Controls
 combo_esc {
     key-positions = <15 26>;
@@ -55,7 +55,7 @@ combo_del {
     bindings = <&kp DEL>;
 };
 combo_capsword {
-    key-positions = <14 15 20 21>;
+    key-positions = <26 33>;
     bindings = <&caps_word>;
 };
 combo_numword {
@@ -63,17 +63,13 @@ combo_numword {
     bindings = <&num_word NUMB>;
 };
 // Symbols
-combo_minus {
-    key-positions = <16 17>;
-    bindings = <&kp MINUS>;
-};
+// combo_minus {
+//     key-positions = <16 17>;
+//     bindings = <&kp MINUS>;
+// };
 combo_equal {
     key-positions = <18 19>;
     bindings = <&kp EQUAL>;
-};
-combo_under {
-    key-positions = <17 29>;
-    bindings = <&kp UNDER>;
 };
 combo_dquo {
     key-positions = <16 28>;
@@ -87,22 +83,22 @@ combo_colon {
     key-positions = <15 28>;
     bindings = <&kp COLON>;
 };
-combo_qmark {
+combo_lbkt {
     key-positions = <14 26>;
-    bindings = <&kp QMARK>;
+    bindings = <&kp LBKT>;
 };
-combo_exclm {
+combo_rbkt {
     key-positions = <15 27>;
-    bindings = <&kp EXCL>;
+    bindings = <&kp RBKT>;
 };
-combo_lpar {
-    key-positions = <20 32>;
-    bindings = <&kp LPAR>;
-};
-combo_rpar {
-    key-positions = <21 33>;
-    bindings = <&kp RPAR>;
-};
+// combo_lpar {
+//     key-positions = <20 32>;
+//     bindings = <&kp LPAR>;
+// };
+// combo_rpar {
+//     key-positions = <21 33>;
+//     bindings = <&kp RPAR>;
+// };
 // Mods
 // combo_l_shift {
 //     timeout-ms = <20>;
