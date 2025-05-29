@@ -85,7 +85,7 @@
                 lsym_layer {
                         display-name = "LSYM";
                         bindings = <
-   &none &kp TILDE &kp EXCL  &kp MINUS &kp PLUS   &kp BSLH   &trans    &kp PRCNT     &kp LBKT        &kp RBKT  &trans       &none
+   &none &kp TILDE &kp EXCL  &kp MINUS &kp PLUS   &none      &trans    &kp PRCNT     &kp LBKT        &kp RBKT  &trans       &none
    &none &kp N6    &kp N4    &kp N0    &kp N2     &kp GRAVE  &kp HASH  &kp DOLLAR    &kp LPAR        &kp RPAR  &kp BSLH     &none
    &none &kp QMARK &kp ASTRK &kp UNDER &kp N8     &trans     &trans    &kp AMPS      &kp LT          &kp GT    &kp AT       &none
                              &trans    &trans     &trans     &trans    &kp K_CANCEL  &num_word NUMB
