@@ -71,10 +71,6 @@ combo_numword {
     bindings = <&num_word NUMB>;
 };
 // Symbols
-// combo_minus {
-//     key-positions = <16 17>;
-//     bindings = <&kp MINUS>;
-// };
 combo_equal {
     key-positions = <18 19>;
     bindings = <&kp EQUAL>;
@@ -108,11 +104,6 @@ combo_rbkt {
 //     bindings = <&kp RPAR>;
 // };
 // Mods
-// combo_l_shift {
-//     timeout-ms = <20>;
-//     key-positions = <14 15>;
-//     bindings = <&sk LSHIFT>;
-// };
 combo_l_gui {
     key-positions = <27 28>;
     bindings = <&sk LGUI>;
@@ -125,11 +116,6 @@ combo_l_alt {
     key-positions = <26 28>;
     bindings = <&sk LALT>;
 };
-// combo_r_shift {
-//     timeout-ms = <20>;
-//     key-positions = <20 21>;
-//     bindings = <&sk RSHIFT>;
-// };
 combo_r_gui {
     key-positions = <31 32>;
     bindings = <&sk LGUI>;
