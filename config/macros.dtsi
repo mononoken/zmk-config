@@ -3,6 +3,11 @@ cw_macro: cw_macro {
     #binding-cells = <0>;
     bindings = <&kp C &kp W>;
 };
+dt_macro: dt_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp D &kp T>;
+};
 oa_macro: oa_macro {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
