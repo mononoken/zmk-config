@@ -86,8 +86,8 @@
                         display-name = "LSYM";
                         bindings = <
    &none &kp TILDE &kp EXCL  &kp MINUS &kp PLUS   &kp BSLH   &trans    &kp PRCNT     &kp AT          &kp HASH  &trans       &none
-   &none &kp RBRC  &kp LBRC  &kp DQT   &kp CARET  &kp GRAVE  &none     &kp N3        &kp N1          &kp N5    &kp N7       &none
-   &none &kp QMARK &kp ASTRK &kp UNDER &kp PIPE   &trans     &trans    &kp N9        &kp LT          &kp GT    &none        &none
+   &none &kp N6    &kp N4    &kp N0    &kp N2     &kp GRAVE  &none     &kp DOLLAR    &kp LPAR        &kp RPAR  &kp BSLH     &none
+   &none &kp QMARK &kp ASTRK &kp UNDER &kp N8     &trans     &trans    &kp AMPS      &kp LT          &kp GT    &none        &none
                              &trans    &trans     &trans     &trans    &kp K_CANCEL  &num_word NUMB
                         >;
                 };
@@ -95,8 +95,8 @@
                         display-name = "RSYM";
                         bindings = <
    &none &kp TILDE &kp EXCL  &kp MINUS       &kp PLUS  &none      &trans    &kp PRCNT     &kp AT     &kp HASH  &trans       &none
-   &none &kp N6    &kp N4    &kp N0          &kp N2    &kp GRAVE  &none     &kp DOLLAR    &kp LPAR   &kp RPAR  &kp BSLH     &none
-   &none &kp QMARK &kp ASTRK &kp UNDER       &kp N8    &trans     &trans    &kp AMPS      &kp LT     &kp GT    &none        &none
+   &none &kp RBRC  &kp LBRC  &kp DQT         &kp CARET &kp GRAVE  &none     &kp N3        &kp N1     &kp N5    &kp N7       &none
+   &none &kp QMARK &kp ASTRK &kp UNDER       &kp PIPE  &trans     &trans    &kp N9        &kp LT     &kp GT    &none        &none
                              &num_word NUMB  &trans    &trans     &trans    &kp K_CANCEL  &trans
                         >;
                 };
