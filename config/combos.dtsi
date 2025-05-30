@@ -9,14 +9,6 @@
 compatible = "zmk,combos";
 
 // Letters
-// combo_q {
-//     key-positions = <1 2>;
-//     bindings = <&kp Q>;
-// };
-// combo_qu {
-//     key-positions = <8 9>;
-//     bindings = <&qu_macro>;
-// };
 combo_z {
     key-positions = <8 9>;
     bindings = <&kp Z>;
@@ -26,17 +18,9 @@ combo_cw {
     bindings = <&cw_macro>;
 };
 combo_dt {
-    key-positions = <19 31>;
+    key-positions = <4 16>;
     bindings = <&dt_macro>;
 };
-// combo_oa {
-//     key-positions = <3 15>;
-//     bindings = <&oa_macro>;
-// };
-// combo_rr {
-//     key-positions = <39 40>;
-//     bindings = <&rr_macro>;
-// };
 // Controls
 combo_esc {
     key-positions = <15 26>;
@@ -95,14 +79,6 @@ combo_rbkt {
     key-positions = <15 27>;
     bindings = <&kp RBKT>;
 };
-// combo_lpar {
-//     key-positions = <20 32>;
-//     bindings = <&kp LPAR>;
-// };
-// combo_rpar {
-//     key-positions = <21 33>;
-//     bindings = <&kp RPAR>;
-// };
 // Mods
 combo_l_gui {
     key-positions = <27 28>;

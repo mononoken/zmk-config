@@ -8,21 +8,6 @@ dt_macro: dt_macro {
     #binding-cells = <0>;
     bindings = <&kp D &kp T>;
 };
-oa_macro: oa_macro {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp O &kp A>;
-};
-qu_macro: qu_macro {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp Q &kp U>;
-};
-rr_macro: rr_macro {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp R &kp R>;
-};
 save_vim: save_vim {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
