@@ -14,11 +14,11 @@ combo_z {
     bindings = <&kp Z>;
 };
 combo_cw {
-    key-positions = <7 19>;
+    key-positions = <4 16>;
     bindings = <&cw_macro>;
 };
 combo_dt {
-    key-positions = <8 20>;
+    key-positions = <19 31>;
     bindings = <&dt_macro>;
 };
 // Controls
@@ -58,10 +58,6 @@ combo_numword {
 combo_equal {
     key-positions = <18 19>;
     bindings = <&kp EQUAL>;
-};
-combo_dquo {
-    key-positions = <16 28>;
-    bindings = <&kp DQT>;
 };
 combo_semi {
     key-positions = <20 33>;
