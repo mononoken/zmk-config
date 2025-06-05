@@ -5,7 +5,7 @@
 // #define RSYM 4
 #define NAVI 3
 #define WNAV 4
-#define SHRT 5
+#define MEDI 5
 
 #define TMUX_LT &kp LC(LA(LEFT))
 #define TMUX_DN &kp LC(LA(DOWN))
