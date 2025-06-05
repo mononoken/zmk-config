@@ -67,18 +67,18 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &sl NUMB   &kp U       &kp O         &kp W           &kp Q         &kp K        &kp P        &kp L        &kp F          &sl NUMB     &none
-   &none &kp I      &kp E       &kp A         &kp C           &kp Y         &kp B        &kp T        &kp H        &kp S          &kp N        &none
-   &none &kp COMMA  &kp FSLH    &kp DOT       &kp G           &kp APOS      &kp J        &kp D        &kp M        &kp V          &kp X        &none
+   &none &sl NUMB   &kp U       &kp O         &kp W           &kp X         &kp K        &kp P        &kp L        &kp F          &sl NUMB     &none
+   &none &kp I      &kp E       &kp A         &kp C           &kp Y         &kp J        &kp T        &kp H        &kp S          &kp N        &none
+   &none &kp COMMA  &kp FSLH    &kp DOT       &kp G           &kp APOS      &kp Q        &kp D        &kp M        &kp V          &kp B        &none
                                 &sk LSHFT     &lt NAVI SPACE  &sl SYMB      &key_repeat  &kp R        &sk RSHFT
                         >;
                 };
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
-   &none &trans    &kp EXCL  &kp MINUS &kp PLUS  &none     &kp K     &kp AT        &kp LBKT   &kp RBKT  &trans     &none
+   &none &trans    &kp EXCL  &kp MINUS &kp PLUS  &kp X     &kp K     &kp AT        &kp LBKT   &kp RBKT  &trans     &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp J     &kp N3        &kp N1     &kp N5    &kp N7     &none
-   &none &trans    &kp ASTRK &trans    &kp N8    &none     &kp X     &kp N9        &kp LT     &kp GT    &kp PRCNT  &none
+   &none &trans    &kp ASTRK &trans    &kp N8    &none     &none     &kp N9        &kp LT     &kp GT    &kp PRCNT  &none
                              &none     &trans    &trans    &trans    &kp K_CANCEL  &none
                         >;
                 };
