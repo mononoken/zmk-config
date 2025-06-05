@@ -47,11 +47,11 @@ combo_del {
     bindings = <&kp DEL>;
 };
 combo_capsword {
-    key-positions = <26 33>;
+    key-positions = <36 41>;
     bindings = <&caps_word>;
 };
 combo_numword {
-    key-positions = <36 41>;
+    key-positions = <26 33>;
     bindings = <&num_word NUMB>;
 };
 // Symbols
