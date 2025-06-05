@@ -21,6 +21,19 @@ combo_z {
 /*     key-positions = <3 15>; */
 /*     bindings = <&dt_macro>; */
 /* }; */
+// Layers
+combo_capsword {
+    key-positions = <36 41>;
+    bindings = <&caps_word>;
+};
+combo_numword {
+    key-positions = <1 10>;
+    bindings = <&num_word NUMB>;
+};
+combo_media {
+    key-positions = <25 26>;
+    bindings = <&mo MEDI>;
+};
 // Controls
 combo_esc {
     key-positions = <15 26>;
@@ -45,14 +58,6 @@ combo_bspc {
 combo_del {
     key-positions = <2 3 4>;
     bindings = <&kp DEL>;
-};
-combo_capsword {
-    key-positions = <36 41>;
-    bindings = <&caps_word>;
-};
-combo_numword {
-    key-positions = <26 33>;
-    bindings = <&num_word NUMB>;
 };
 // Symbols
 combo_equal {
