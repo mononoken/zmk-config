@@ -13,15 +13,6 @@ combo_z {
     key-positions = <2 3>;
     bindings = <&kp Z>;
 };
-/* combo_cw { */
-/*     key-positions = <4 16>; */
-/*     bindings = <&cw_macro>; */
-/* }; */
-/* combo_dt { */
-/*     key-positions = <3 15>; */
-/*     bindings = <&dt_macro>; */
-/* }; */
-// Layers
 combo_capsword {
     key-positions = <36 41>;
     bindings = <&caps_word>;
