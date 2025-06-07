@@ -79,7 +79,7 @@
    &none &none     &kp LBKT  &kp RBKT  &kp AT    &kp ASTRK &kp K     &kp PLUS      &kp MINUS  &kp EXCL  &none      &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp J     &kp N3        &kp N1     &kp N5    &kp N7     &none
    &none &kp PRCNT &kp LT    &kp GT    &kp N8    &kp HASH  &kp X     &kp N9        &trans     &trans    &trans     &none
-                             &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
+                             &none     &trans    &trans    &trans    &kp K_CANCEL  &none
                         >;
                 };
                 symb_layer {
@@ -88,7 +88,7 @@
    &none &none     &kp LBKT  &kp RBKT        &kp AT    &kp ASTRK  &none     &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE    &none
    &none &kp GRAVE &kp LPAR  &kp RPAR        &kp CARET &kp BSLH   &none     &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC     &none
    &none &kp PRCNT &kp LT    &kp GT          &kp PIPE  &kp HASH   &none     &kp AMPS      &kp UNDER  &trans    &kp QMARK    &none
-                             &trans          &trans    &trans     &trans    &kp K_CANCEL  &num_word NUMB
+                             &none           &trans    &trans     &trans    &kp K_CANCEL  &none
                         >;
                 };
                 navi_layer {
@@ -115,7 +115,7 @@
    &none &none     &none     &none     &none     &none       &bt BT_CLR    &none         &kp C_PREV   &kp C_NEXT    &none       &none
    &none &none     &none     &none     &none     &none       &bt BT_SEL 0  &kp C_PP      &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
    &none &none     &none     &none     &none     &none       &bt BT_SEL 1  &kp F13       &kp C_BRI_DN &kp C_BRI_UP  &none       &none
-                             &trans    &trans    &trans      &trans        &kp K_CANCEL  &trans
+                             &none     &trans    &trans      &trans        &kp K_CANCEL  &none
                         >;
                 };
         };
