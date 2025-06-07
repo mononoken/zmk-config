@@ -76,18 +76,18 @@
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
-   &none &none     &kp LBKT  &kp RBKT  &kp AT    &kp HASH  &kp K     &kp PLUS      &kp MINUS  &kp EXCL  &none      &none
+   &none &none     &kp LBKT  &kp RBKT  &kp AT    &kp ASTRK &kp K     &kp PLUS      &kp MINUS  &kp EXCL  &none      &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp J     &kp N3        &kp N1     &kp N5    &kp N7     &none
-   &none &kp PRCNT &kp LT    &kp GT    &kp N8    &none     &kp X     &kp N9        &trans     &kp ASTRK &trans     &none
+   &none &kp PRCNT &kp LT    &kp GT    &kp N8    &kp HASH  &kp X     &kp N9        &trans     &trans    &trans     &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
                 };
                 symb_layer {
                         display-name = "SYMB";
                         bindings = <
-   &none &none     &kp LBKT  &kp RBKT        &kp AT    &kp HASH   &none     &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE    &none
+   &none &none     &kp LBKT  &kp RBKT        &kp AT    &kp ASTRK  &none     &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE    &none
    &none &kp GRAVE &kp LPAR  &kp RPAR        &kp CARET &kp BSLH   &none     &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC     &none
-   &none &kp PRCNT &kp LT    &kp GT          &kp PIPE  &none      &none     &kp AMPS      &kp UNDER  &kp ASTRK &kp QMARK    &none
+   &none &kp PRCNT &kp LT    &kp GT          &kp PIPE  &kp HASH   &none     &kp AMPS      &kp UNDER  &trans    &kp QMARK    &none
                              &trans          &trans    &trans     &trans    &kp K_CANCEL  &num_word NUMB
                         >;
                 };
