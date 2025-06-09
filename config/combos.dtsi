@@ -9,12 +9,21 @@
 compatible = "zmk,combos";
 
 // Letters
-combo_z {
+combo_q {
+    key-positions = <1 2>;
+    bindings = <&kp Z>;
+};
+combo_qu {
     key-positions = <2 3>;
     bindings = <&kp Z>;
 };
+combo_z {
+    key-positions = <3 4>;
+    bindings = <&kp Z>;
+};
+// Layers
 combo_capsword {
-    key-positions = <36 41>;
+    key-positions = <38 39>;
     bindings = <&caps_word>;
 };
 combo_numword {
