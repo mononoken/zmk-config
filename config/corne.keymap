@@ -76,9 +76,9 @@
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
-   &none &none     &kp LBKT  &kp RBKT  &kp AT    &kp ASTRK &kp X     &kp PLUS      &kp MINUS  &kp EXCL  &none      &none
+   &none &none     &kp LBKT  &kp RBKT  &kp AT    &kp ASTRK &kp X     &kp PLUS      &kp MINUS  &kp EXCL  &trans     &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp K     &kp N3        &kp N1     &kp N5    &kp N7     &none
-   &none &kp PRCNT &kp LT    &kp GT    &kp N8    &kp HASH  &kp J     &kp N9        &trans     &trans    &trans     &none
+   &none &kp PRCNT &kp LT    &kp GT    &kp N8    &kp HASH  &kp J     &kp N9        &trans     &trans    &kp QMARK  &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
                 };
