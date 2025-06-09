@@ -20,43 +20,43 @@ combo_z {
 // Numbers
 combo_0 {
     key-positions = <15 33>;
-    bindings = <&kp 0>;
+    bindings = <&kp N0>;
 };
 combo_1 {
     key-positions = <20 26>;
-    bindings = <&kp 1>;
+    bindings = <&kp N1>;
 };
 combo_2 {
     key-positions = <16 33>;
-    bindings = <&kp 2>;
+    bindings = <&kp N2>;
 };
 combo_3 {
     key-positions = <19 26>;
-    bindings = <&kp 3>;
+    bindings = <&kp N3>;
 };
 combo_4 {
     key-positions = <14 33>;
-    bindings = <&kp 4>;
+    bindings = <&kp N4>;
 };
 combo_5 {
     key-positions = <21 26>;
-    bindings = <&kp 5>;
+    bindings = <&kp N5>;
 };
 combo_6 {
     key-positions = <13 33>;
-    bindings = <&kp 6>;
+    bindings = <&kp N6>;
 };
 combo_7 {
     key-positions = <22 26>;
-    bindings = <&kp 7>;
+    bindings = <&kp N7>;
 };
 combo_8 {
     key-positions = <28 33>;
-    bindings = <&kp 8>;
+    bindings = <&kp N8>;
 };
 combo_9 {
     key-positions = <26 31>;
-    bindings = <&kp 9>;
+    bindings = <&kp N9>;
 };
 // Layers
 combo_capsword {
