@@ -21,13 +21,54 @@ combo_z {
     key-positions = <3 4>;
     bindings = <&kp Z>;
 };
+// Numbers
+combo_0 {
+    key-positions = <15 33>;
+    bindings = <&kp Z>;
+};
+combo_1 {
+    key-positions = <20 26>;
+    bindings = <&kp Z>;
+};
+combo_2 {
+    key-positions = <16 33>;
+    bindings = <&kp Z>;
+};
+combo_3 {
+    key-positions = <19 26>;
+    bindings = <&kp Z>;
+};
+combo_4 {
+    key-positions = <14 33>;
+    bindings = <&kp Z>;
+};
+combo_5 {
+    key-positions = <21 26>;
+    bindings = <&kp Z>;
+};
+combo_6 {
+    key-positions = <13 33>;
+    bindings = <&kp Z>;
+};
+combo_7 {
+    key-positions = <22 26>;
+    bindings = <&kp Z>;
+};
+combo_8 {
+    key-positions = <28 33>;
+    bindings = <&kp Z>;
+};
+combo_9 {
+    key-positions = <26 31>;
+    bindings = <&kp Z>;
+};
 // Layers
 combo_capsword {
     key-positions = <38 39>;
     bindings = <&caps_word>;
 };
 combo_numword {
-    key-positions = <1 10>;
+    key-positions = <26 33>;
     bindings = <&num_word NUMB>;
 };
 combo_media {
