@@ -9,17 +9,67 @@
 compatible = "zmk,combos";
 
 // Letters
+combo_qu {
+    key-positions = <2 3>;
+    bindings = <&qu_macro>;
+};
 combo_z {
-    key-positions = <8 9>;
+    key-positions = <3 4>;
     bindings = <&kp Z>;
 };
-combo_cw {
-    key-positions = <7 19>;
-    bindings = <&cw_macro>;
+// Numbers
+combo_0 {
+    key-positions = <15 33>;
+    bindings = <&kp N0>;
 };
-combo_dt {
-    key-positions = <8 20>;
-    bindings = <&dt_macro>;
+combo_1 {
+    key-positions = <20 26>;
+    bindings = <&kp N1>;
+};
+combo_2 {
+    key-positions = <16 33>;
+    bindings = <&kp N2>;
+};
+combo_3 {
+    key-positions = <19 26>;
+    bindings = <&kp N3>;
+};
+combo_4 {
+    key-positions = <14 33>;
+    bindings = <&kp N4>;
+};
+combo_5 {
+    key-positions = <21 26>;
+    bindings = <&kp N5>;
+};
+combo_6 {
+    key-positions = <13 33>;
+    bindings = <&kp N6>;
+};
+combo_7 {
+    key-positions = <22 26>;
+    bindings = <&kp N7>;
+};
+combo_8 {
+    key-positions = <28 33>;
+    bindings = <&kp N8>;
+};
+combo_9 {
+    key-positions = <26 31>;
+    bindings = <&kp N9>;
+};
+// Layers
+combo_capsword {
+    key-positions = <25 34>;
+    bindings = <&caps_word>;
+};
+combo_numword {
+    key-positions = <26 33>;
+    bindings = <&num_word NUMB>;
+};
+combo_media {
+    key-positions = <25 26>;
+    bindings = <&mo MEDI>;
 };
 // Controls
 combo_esc {
@@ -46,22 +96,10 @@ combo_del {
     key-positions = <2 3 4>;
     bindings = <&kp DEL>;
 };
-combo_capsword {
-    key-positions = <26 33>;
-    bindings = <&caps_word>;
-};
-combo_numword {
-    key-positions = <36 41>;
-    bindings = <&num_word NUMB>;
-};
 // Symbols
 combo_equal {
     key-positions = <18 19>;
     bindings = <&kp EQUAL>;
-};
-combo_dquo {
-    key-positions = <16 28>;
-    bindings = <&kp DQT>;
 };
 combo_semi {
     key-positions = <20 33>;
