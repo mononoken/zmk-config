@@ -77,7 +77,7 @@ combo_esc {
     bindings = <&kp ESC>;
 };
 combo_clear {
-    key-positions = <4 5>;
+    key-positions = <3 16>;
     bindings = <&kp K_CANCEL>;
 };
 combo_ent {
