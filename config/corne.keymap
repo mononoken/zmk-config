@@ -32,7 +32,6 @@
 };
 
 #define TW(keycode) &tw keycode keycode
-#define RT(keycode) &rt keycode 0
 
 / {
         combos {
@@ -51,14 +50,6 @@
                         quick-tap-ms = <QUICK_TAP_MS>;
                         flavor = "balanced";
                         bindings = <&tmux_window>, <&kp>;
-                };
-                rt: repeat_tap {
-                        compatible = "zmk,behavior-hold-tap";
-                        #binding-cells = <2>;
-                        flavor = "tap-preferred";
-                        tapping-term-ms = <160>;
-                        bindings = <&mo>, <&key_repeat>;
-                        display-name = "Repeat-Layer-Tap";
                 };
         };
 
