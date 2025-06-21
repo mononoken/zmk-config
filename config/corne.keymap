@@ -70,7 +70,7 @@
    &none &kp Q      &kp F       &kp D         &kp W           &kp P         &kp X        &kp M        &kp O        &kp U          &kp COMMA    &none
    &none &kp N      &kp S       &kp T         &kp C           &kp Y         &kp K        &kp H        &kp A        &kp E          &kp I        &none
    &none &sk LSHFT  &kp V       &kp B         &kp G           &kp APOS      &kp J        &kp L        &kp DOT      &kp FSLH       &sk RSHFT    &none
-                                &sk LCTRL     &lt NAVI SPACE  &sl SYMB      &key_repeat  &kp R        &sk RCTRL
+                                &sk LCTRL     &lt NAVI SPACE  &sl SYMB      &sl SYMB     &kp R        &sk RCTRL
                         >;
                 };
                 numb_layer {
@@ -115,7 +115,7 @@
    &none &none     &none     &none     &none     &none       &bt BT_CLR    &none         &kp C_PREV   &kp C_NEXT    &none       &none
    &none &none     &none     &none     &none     &none       &bt BT_SEL 0  &kp C_PP      &kp C_VOL_DN &kp C_VOL_UP  &kp C_MUTE  &none
    &none &none     &none     &none     &none     &none       &bt BT_SEL 1  &kp F13       &kp C_BRI_DN &kp C_BRI_UP  &none       &none
-                             &trans    &trans    &trans      &none         &kp K_CANCEL  &trans
+                             &trans    &trans    &trans      &trans        &kp K_CANCEL  &trans
                         >;
                 };
         };
