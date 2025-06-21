@@ -31,7 +31,7 @@
   continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
-#define TW(keycode) &tw keycode keycode
+#define TW(keycode) &tw keycode LA(keycode)
 
 / {
         combos {
@@ -61,14 +61,14 @@
    &none &kp Q      &kp F       &kp D         &kp W           &kp P         &kp X        &kp M        &kp O        &kp U          &kp COMMA    &none
    &none &kp N      &kp S       &kp T         &kp C           &kp Y         &kp K        &kp H        &kp A        &kp E          &kp I        &none
    &none &sk LSHFT  &kp V       &kp B         &kp G           &kp APOS      &kp J        &kp L        &kp DOT      &kp FSLH       &sk RSHFT    &none
-                                &sk LCTRL     &lt NAVI SPACE  &sl SYMB      &sl SYMB     &kp R        &sk RCTRL
+                                &sk LCTRL     &lt NAVI SPACE  &none         &sl SYMB     &kp R        &sk RCTRL
                         >;
                 };
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
    &none &none     &kp LBKT  &kp RBKT  &kp AT    &kp ASTRK &kp X     &kp PLUS      &kp MINUS  &kp EXCL  &trans     &none
-   &none &kp N6    &kp N4    &kp N0    TW(N2)    &kp LS(G) &kp K     &kp N3        &kp N1     &kp N5    &kp N7     &none
+   &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp K     &kp N3        &kp N1     &kp N5    &kp N7     &none
    &none &kp PRCNT &kp LT    &kp GT    &kp N8    &kp HASH  &kp J     &kp N9        &trans     &trans    &kp QMARK  &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
@@ -95,8 +95,8 @@
                         display-name = "WNAV";
                         bindings = <
    &none &none      &none      &none      &none      &none   &none   TMUX_LT     TMUX_DN      TMUX_UP     TMUX_RT    &none
-   &none &kp LA(N6) &kp LA(N4) &kp LA(N0) &kp LA(N2) &none   &none   &kp LA(N3)  &kp LA(N1)   &kp LA(N5)  &kp LA(N7) &none
-   &none &none      &none      &none      &kp LA(N8) &none   &none   &none       &lca_w       &lca_e      &lca_m     &none
+   &none TW(N6)     TW(N4)     TW(N0)     TW(N2)     &none   &none   TW(N3)      TW(N1)       TW(N5)      TW(N7)     &none
+   &none &none      &none      &none      TW(N8)     &none   &none   &none       &lca_w       &lca_e      &lca_m     &none
                                &trans     &trans     &trans  &trans  &trans      &trans
                         >;
                 };
