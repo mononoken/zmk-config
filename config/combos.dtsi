@@ -9,12 +9,12 @@
 compatible = "zmk,combos";
 
 // Letters
-combo_qu {
-    key-positions = <2 3>;
-    bindings = <&qu_macro>;
-};
+/* combo_qu { */
+/*     key-positions = <8 9>; */
+/*     bindings = <&qu_macro>; */
+/* }; */
 combo_z {
-    key-positions = <3 4>;
+    key-positions = <8 9>;
     bindings = <&kp Z>;
 };
 // Numbers
