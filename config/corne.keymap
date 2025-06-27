@@ -59,16 +59,16 @@
                 base_layer {
                         display-name = "BASE";
                         bindings = <
-   &none &kp COMMA  &kp U       &kp O         &kp W           &kp Q         &kp K        &kp P        &kp L        &kp F          &kp X        &none
-   &none &kp I      &kp E       &kp A         &kp C           &kp Y         &kp B        &kp T        &kp H        &kp S          &kp N        &none
-   &none &sk LSHFT  &kp FSLH    &kp DOT       &kp G           &kp APOS      &kp J        &kp D        &kp M        &kp V          &sk RSHFT    &none
+   &none &kp COMMA  &kp U       &kp O         &kp W           &kp P         &kp X        &kp K        &kp L        &kp F          &kp B        &none
+   &none &kp I      &kp E       &kp A         &kp C           &kp Y         &kp M        &kp T        &kp H        &kp S          &kp N        &none
+   &none &sk LSHFT  &kp FSLH    &kp DOT       &kp G           &kp APOS      &kp Q        &kp D        &kp J        &kp V          &sk RSHFT    &none
                                 &sk LCTRL     &lt NAVI SPACE  &sl SYMB      &sl SYMB     &kp R        &sk RCTRL
                         >;
                 };
                 numb_layer {
                         display-name = "NUMB";
                         bindings = <
-   &none &none     &kp EXCL  &kp MINUS &kp PLUS  &kp ASTRK &kp K     &kp AT        &kp LBKT   &kp RBKT  &trans     &none
+   &none &none     &kp EXCL  &kp MINUS &kp PLUS  &kp ASTRK &kp X     &kp K         &kp LBKT   &kp RBKT  &kp AT     &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp HASH  &kp N3        &kp N1     &kp N5    &kp N7     &none
    &none &kp QMARK &trans    &trans    &kp N8    &trans    &kp J     &kp N9        &kp LT     &kp RT    &kp PRCNT  &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
@@ -78,7 +78,7 @@
                         display-name = "SYMB";
                         bindings = <
 
-   &none &kp TILDE &kp EXCL  &kp MINUS       &kp PLUS  &kp ASTRK  &none     &kp AT        &kp LBKT   &kp RBKT  &none        &none
+   &none &kp TILDE &kp EXCL  &kp MINUS       &kp PLUS  &kp ASTRK  &none     &none         &kp LBKT   &kp RBKT  &kp AT       &none
    &none &kp RBRC  &kp LBRC  &kp DQT         &kp CARET &kp BSLH   &kp HASH  &kp DOLLAR    &kp LPAR   &kp RPAR  &kp GRAVE    &none
    &none &kp QMARK &kp trans &kp UNDER       &kp PIPE  &trans     &none     &kp AMPS      &kp LT     &kp GT    &kp PRCNT    &none
                              &trans          &trans    &trans     &trans    &kp K_CANCEL  &trans
