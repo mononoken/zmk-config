@@ -70,7 +70,7 @@
                         bindings = <
    &none &none     &kp EXCL  &kp MINUS &kp PLUS  &kp ASTRK &kp X     &kp K         &kp LBKT   &kp RBKT  &kp AT     &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp HASH  &kp N3        &kp N1     &kp N5    &kp N7     &none
-   &none &kp QMARK &trans    &trans    &kp N8    &trans    &kp J     &kp N9        &kp LT     &kp RT    &kp PRCNT  &none
+   &none &kp QMARK &trans    &trans    &kp N8    &trans    &kp J     &kp N9        &kp LT     &kp GT    &kp PRCNT  &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
                 };
@@ -80,7 +80,7 @@
 
    &none &kp TILDE &kp EXCL  &kp MINUS       &kp PLUS  &kp ASTRK  &none     &none         &kp LBKT   &kp RBKT  &kp AT       &none
    &none &kp RBRC  &kp LBRC  &kp DQT         &kp CARET &kp BSLH   &kp HASH  &kp DOLLAR    &kp LPAR   &kp RPAR  &kp GRAVE    &none
-   &none &kp QMARK &kp trans &kp UNDER       &kp PIPE  &trans     &none     &kp AMPS      &kp LT     &kp GT    &kp PRCNT    &none
+   &none &kp QMARK &kp BSLH  &kp UNDER       &kp PIPE  &trans     &none     &kp AMPS      &kp LT     &kp GT    &kp PRCNT    &none
                              &trans          &trans    &trans     &trans    &kp K_CANCEL  &trans
                         >;
                 };
