@@ -62,7 +62,7 @@
    &none &kp B      &kp F       &kp L         &kp K           &kp X         &kp P        &kp W        &kp O        &kp U          &kp COMMA    &none
    &none &kp N      &kp S       &kp H         &kp T           &kp M         &kp Y        &kp C        &kp A        &kp E          &kp I        &none
    &none &sk LSHFT  &kp V       &kp J         &kp D           &kp Q         &kp APOS     &kp G        &kp DOT      &kp FSLH       &sk RSHFT    &none
-                                &sk LCTRL     &lt NAVI SPACE  &sl SYMB      &sl SYMB     &kp R        &sk RCTRL
+                                &sk LCTRL     &lt NAVI SPACE  &sl NUMB      &sl NUMB     &kp R        &sl SYMB
                         >;
                 };
                 numb_layer {
@@ -77,10 +77,10 @@
                 symb_layer {
                         display-name = "SYMB";
                         bindings = <
-   &none &kp AT    &kp LBKT  &kp RBKT        &none     &none      &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE    &none
-   &none &kp GRAVE &kp LPAR  &kp RPAR        &kp CARET &none      &kp HASH  &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC     &none
-   &none &kp PRCNT &kp LT    &kp GT          &kp PIPE  &trans     &none     &kp AMPS      &kp UNDER  &kp QMARK &kp BSLH     &none
-                             &trans          &trans    &trans     &trans    &kp K_CANCEL  &trans
+   &none &kp AT    &kp LBKT  &kp RBKT     &none     &none      &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE    &none
+   &none &kp GRAVE &kp LPAR  &kp RPAR     &kp CARET &none      &kp HASH  &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC     &none
+   &none &kp PRCNT &kp LT    &kp GT       &kp PIPE  &trans     &none     &kp AMPS      &kp UNDER  &kp QMARK &kp BSLH     &none
+                             &trans       &trans    &trans     &trans    &kp K_CANCEL  &trans
                         >;
                 };
                 navi_layer {
