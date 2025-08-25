@@ -62,7 +62,7 @@
    &none &kp B      &kp F       &kp L         &kp K           &kp X         &kp P        &kp W        &kp O        &kp U          &kp COMMA    &none
    &none &kp N      &kp S       &kp H         &kp T           &kp M         &kp Y        &kp C        &kp A        &kp E          &kp I        &none
    &none &sk LSHFT  &kp V       &kp J         &kp D           &kp Q         &kp APOS     &kp G        &kp DOT      &kp FSLH       &sk RSHFT    &none
-                                &sk LCTRL     &lt NAVI SPACE  &sl LSYM      &sl RSYM     &kp R        &sl SYMB
+                                &sk LCTRL     &lt NAVI SPACE  &sl LSYM      &sl RSYM     &kp R        &sk RCTRL
                         >;
                 };
                 numb_layer {
@@ -70,25 +70,25 @@
                         bindings = <
    &none &kp AT    &kp LBKT  &kp RBKT  &kp K     &kp X     &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &trans     &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp HASH  &kp N3        &kp N1     &kp N5    &kp N7     &none
-   &none &kp PRCNT &kp LT    &kp J     &kp N8    &kp GT    &trans    &kp N9        &trans     &trans    &none      &none
+   &none &kp PRCNT &kp LT    &kp J     &kp N8    &kp GT    &trans    &kp N9        &trans     &kp QMARK    &none      &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
                 };
                 lsym_layer {
                         display-name = "LSYM";
                         bindings = <
-   &none &kp AT    &kp LBKT  &kp RBKT  &kp K     &kp X     &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &trans     &none
+   &none &kp AT    &kp LBKT  &kp RBKT  &kp K     &kp X     &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE  &none
    &none &kp GRAVE &kp LPAR  &kp RPAR  &kp CARET &none     &kp HASH  &kp N3        &kp N1     &kp N5    &kp N7     &none
-   &none &kp PRCNT &kp LT    &kp GT    &kp PIPE  &trans    &trans    &kp N9        &trans     &trans    &none      &none
+   &none &kp PRCNT &kp LT    &kp GT    &kp PIPE  &trans    &trans    &kp N9        &kp UNDER  &kp QMARK &kp BSLH   &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
                 };
                 rsym_layer {
                         display-name = "RSYM";
                         bindings = <
-   &none &kp AT    &kp LBKT  &kp RBKT  &kp K     &kp X     &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE  &none
+   &none &kp AT    &kp LBKT  &kp RBKT  &none     &none     &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE  &none
    &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp HASH  &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC   &none
-   &none &kp PRCNT &kp LT    &kp J     &kp N8    &kp GT    &trans    &kp AMPS      &kp UNDER  &kp QMARK &kp BSLH   &none
+   &none &kp PRCNT &kp LT    &kp GT    &kp N8    &none     &trans    &kp AMPS      &kp UNDER  &kp QMARK &kp BSLH   &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
                 };
