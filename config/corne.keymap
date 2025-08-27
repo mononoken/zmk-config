@@ -106,7 +106,7 @@
                         bindings = <
    &none &kp LG(LS(T)) &kp LEFT        &kp UP           &kp RIGHT   &none     &kp LA(S)  &kp LA(H) &kp LA(J)  &kp LA(K) &kp LA(L) &none
    &none &kp LG(A)     &kp LC(LS(TAB)) &mt LCTRL DOWN   &kp LC(TAB) &none     &kp HOME   &kp H     &kp J      &kp K     &kp L     &none
-   &none &kp LG(Z)     &kp LG(X)       &kp LG(C)        &kp LG(V)   &none     &kp END    &kp LC(D) &kp PG_DN  &kp PG_UP &kp LC(U) &none
+   &none &trans        &kp LG(X)       &kp LG(C)        &kp LG(V)   &none     &kp END    &kp LC(D) &kp PG_DN  &kp PG_UP &kp LC(U) &none
                                        &trans           &trans      &trans    &trans     &mo WNAV  &trans
                         >;
                 };
