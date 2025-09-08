@@ -87,7 +87,7 @@
                         display-name = "RSYM";
                         bindings = <
    &none &kp AT    &kp LBKT  &kp RBKT  &none     &none     &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE  &none
-   &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp HASH  &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC   &none
+   &none &kp N6    &kp N4    &kp N0    &kp N2    &kp LS(G) &kp HASH  &kp DOLLAR    &kp LBRC   &kp RBRC  &none      &none
    &none &kp PRCNT &kp LT    &kp GT    &kp N8    &none     &kp DQT   &kp AMPS      &kp UNDER  &kp QMARK &kp BSLH   &none
                              &trans    &trans    &trans    &trans    &kp K_CANCEL  &trans
                         >;
@@ -96,7 +96,7 @@
                         display-name = "SYMB";
                         bindings = <
    &none &kp AT    &kp LBKT  &kp RBKT     &none     &none      &kp ASTRK &kp PLUS      &kp MINUS  &kp EXCL  &kp TILDE    &none
-   &none &kp GRAVE &kp LPAR  &kp RPAR     &kp CARET &none      &kp HASH  &kp DOLLAR    &kp DQT    &kp LBRC  &kp RBRC     &none
+   &none &kp GRAVE &kp LPAR  &kp RPAR     &kp CARET &none      &kp HASH  &kp DOLLAR    &kp LBRC   &kp RBRC  &none        &none
    &none &kp PRCNT &kp LT    &kp GT       &kp PIPE  &trans     &kp DQT   &kp AMPS      &kp UNDER  &kp QMARK &kp BSLH     &none
                              &trans       &trans    &trans     &trans    &kp K_CANCEL  &trans
                         >;
