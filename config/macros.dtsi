@@ -54,6 +54,15 @@ lca_w: lca_w {
           , <&macro_release &kp LCTRL &kp LALT>
           ;
 };
+lca_u: lca_u {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+          = <&macro_press &kp LCTRL &kp LALT>
+          , <&macro_tap &kp U>
+          , <&macro_release &kp LCTRL &kp LALT>
+          ;
+};
 tmux_window: tmux_window {
     compatible = "zmk,behavior-macro-one-param";
     #binding-cells = <1>;
